@@ -46,7 +46,7 @@ public:
 		memcpy(&backup, address, 5);
 
 		// calculating relative address
-		std::size_t offset = ((std::size_t)detour - (std::size_t)address - 5); //calculating relative address
+		std::size_t offset = ((std::size_t)detour - (std::size_t)address - 5);
 
 		// patching memory
 		if (!Unprotect())

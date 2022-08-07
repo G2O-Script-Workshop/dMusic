@@ -31,6 +31,14 @@ target_include_directories(SqUnionModule
 
 add_subdirectory(dependencies)
 
+if(DEFINED SHARED_LIBRARY_SUFFIX)
+	set_target_properties(ANSIConsole
+			PROPERTIES 
+				PREFIX ""
+				SUFFIX ".${SHARED_LIBRARY_SUFFIX}${CMAKE_SHARED_LIBRARY_SUFFIX}"
+	)
+endif()
+
 if (NOT ${GAME_PATH} STREQUAL "")
 	install(TARGETS SqUnionModule
 			RUNTIME

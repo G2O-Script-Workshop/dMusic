@@ -1,0 +1,44 @@
+stages:
+ - build
+ - release
+
+build:windows:
+  stage: build
+  tags:
+  - windows
+  when: manual
+  script:
+    - choco install -y cmake --installargs '"ADD_CMAKE_TO_PATH=System"'
+    - $env:Path += ";C:\Program Files\CMake\bin"
+    - cmake . -DCMAKE_TOOLCHAIN_FILE="windows-x86.cmake"
+    - cmake --build . --config Release
+  after_script:
+    - $env = "windows-x86_JOB_ID=$CI_JOB_ID" -replace "-", "_"
+    - Add-Content -Path job.env -Value $env
+  artifacts:
+    name: SqUnionModule
+    paths:
+    - Release/SqUnionModule.dll
+    expire_in: never
+    reports:
+       dotenv: job.env
+    
+release:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  when: manual
+  needs:
+    - job: build:windows
+      artifacts: true
+  variables:
+    TAG: '0.1'
+  script:
+    - echo "Create Release $TAG"
+  release:
+    tag_name: '$TAG'
+    description: "./CHANGELOG.md"
+    assets:
+      links:
+        - name: "SqUnionModule.dll"
+          url: "https://gitlab.com/GothicMultiplayerTeam/modules/union-template/-/jobs/$windows_x86_JOB_ID/artifacts/download"
+          link_type: "package"

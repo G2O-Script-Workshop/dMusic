@@ -1,4 +1,4 @@
-# Union template
+# Union module template
 
 ## Table of contents
 

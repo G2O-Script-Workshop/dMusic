@@ -1,4 +1,4 @@
-# Squirrel module template
+# Union template
 
 ## Table of contents
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 
-project(SqUnionModule)
+project(union-template)
 
 option(INSTALL_AFTER_BUILD "Run cmake --install separately for every target after each build. By default this option is set to OFF" OFF)
 
@@ -19,10 +19,10 @@ file(GLOB SRC
 	"src/sqmain.cpp"
 )
 
-add_library(SqUnionModule SHARED ${SRC})
-target_precompile_headers(SqUnionModule PRIVATE "src/pch.h")
+add_library(union-template SHARED ${SRC})
+target_precompile_headers(union-template PRIVATE "src/pch.h")
 
-target_include_directories(SqUnionModule
+target_include_directories(union-template
 	INTERFACE
 		"include/"
 	PRIVATE
@@ -32,7 +32,7 @@ target_include_directories(SqUnionModule
 add_subdirectory(dependencies)
 
 if(DEFINED SHARED_LIBRARY_SUFFIX)
-	set_target_properties(SqUnionModule
+	set_target_properties(union-template
 			PROPERTIES 
 				PREFIX ""
 				SUFFIX ".${SHARED_LIBRARY_SUFFIX}${CMAKE_SHARED_LIBRARY_SUFFIX}"
@@ -40,14 +40,14 @@ if(DEFINED SHARED_LIBRARY_SUFFIX)
 endif()
 
 if (NOT ${GAME_PATH} STREQUAL "")
-	install(TARGETS SqUnionModule
+	install(TARGETS union-template
 			RUNTIME
 			  DESTINATION ${GAME_PATH}
 			  COMPONENT "clientModule"
 	)
 
 	if(INSTALL_AFTER_BUILD)
-		add_custom_command(TARGET SqUnionModule 
+		add_custom_command(TARGET union-template 
 			POST_BUILD
 				COMMAND ${CMAKE_COMMAND} --install ${CMAKE_CURRENT_BINARY_DIR} --component "clientModule"
 		)
@@ -55,14 +55,14 @@ if (NOT ${GAME_PATH} STREQUAL "")
 endif()
 
 if (NOT ${SERVER_PATH} STREQUAL "")
-	install(TARGETS SqUnionModule
+	install(TARGETS union-template
 			RUNTIME
 			  DESTINATION ${SERVER_PATH}
 			  COMPONENT "serverModule"
 	)
 
 	if(INSTALL_AFTER_BUILD)
-		add_custom_command(TARGET SqUnionModule 
+		add_custom_command(TARGET union-template 
 			POST_BUILD
 				COMMAND ${CMAKE_COMMAND} --install ${CMAKE_CURRENT_BINARY_DIR} --component "serverModule"
 		)

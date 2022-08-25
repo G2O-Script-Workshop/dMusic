@@ -12,13 +12,15 @@ build:windows:
     - $env:Path += ";C:\Program Files\CMake\bin"
     - cmake . -DCMAKE_TOOLCHAIN_FILE="windows-x86.cmake"
     - cmake --build . --config Release
+    - cp Release/$CI_PROJECT_NAME.dll ./
+
   after_script:
     - $env = "windows-x86_JOB_ID=$CI_JOB_ID" -replace "-", "_"
     - Add-Content -Path job.env -Value $env
   artifacts:
-    name: SqUnionModule
+    name: $CI_PROJECT_NAME
     paths:
-    - Release/SqUnionModule.dll
+    - $CI_PROJECT_NAME.dll
     expire_in: never
     reports:
        dotenv: job.env
@@ -39,6 +41,6 @@ release:
     description: "./CHANGELOG.md"
     assets:
       links:
-        - name: "SqUnionModule.dll"
-          url: "https://gitlab.com/GothicMultiplayerTeam/modules/union-template/-/jobs/$windows_x86_JOB_ID/artifacts/download"
+        - name: "$CI_PROJECT_NAME.dll"
+          url: "$CI_PROJECT_URL/-/jobs/$windows_x86_JOB_ID/artifacts/download"
           link_type: "package"

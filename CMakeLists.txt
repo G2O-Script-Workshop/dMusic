@@ -31,11 +31,11 @@ target_include_directories(union-template
 
 add_subdirectory(dependencies)
 
-if(DEFINED SHARED_LIBRARY_SUFFIX)
+if(DEFINED OUT_FILE_SUFFIX)
 	set_target_properties(union-template
 			PROPERTIES 
 				PREFIX ""
-				SUFFIX ".${SHARED_LIBRARY_SUFFIX}${CMAKE_SHARED_LIBRARY_SUFFIX}"
+				SUFFIX ".${OUT_FILE_SUFFIX}${CMAKE_OUT_FILE_SUFFIX}"
 	)
 endif()
 

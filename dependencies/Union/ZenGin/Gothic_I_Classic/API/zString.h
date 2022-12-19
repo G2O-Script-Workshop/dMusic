@@ -454,7 +454,7 @@
     return zSTRING(s1) += s2;
   }
 
-  inline zSTRING& operator += (zSTRING& s1, const zSTRING& s2) {
+  inline zSTRING operator += (zSTRING& s1, const zSTRING& s2) {
     return s1.Inserted(s1.Length(), s2);
   }
 

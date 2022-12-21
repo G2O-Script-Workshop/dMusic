@@ -179,7 +179,7 @@
     static zSTRING& s_physPathString;
     static zSTRING& s_rootDirString;
     static bool& s_initialized;
-    static zCBuffer**& bufferList;
+    static zCBuffer** bufferList;
     static int*& bufferFlag;
 
     // user API

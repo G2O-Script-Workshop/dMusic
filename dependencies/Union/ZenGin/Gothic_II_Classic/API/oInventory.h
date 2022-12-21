@@ -143,7 +143,7 @@
     static zCGfx*& gfx_equip;
     static zCGfx*& gfx_cursor;
     static zCGfx*& gfx_cursor_equip;
-    static zCGfx**& gfx_arrow;
+    static zCGfx** gfx_arrow;
 
     // user API
     #include "oCItemContainer.inl"

@@ -49,7 +49,7 @@
     static const unsigned int& invalid_size;
     static const unsigned int& allocation_failed;
     static const unsigned int& ql_exceeded;
-    static const char**& message;
+    static const char** message;
 
     // user API
     #include "zCMgcEigenD.inl"

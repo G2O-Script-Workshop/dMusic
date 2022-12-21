@@ -400,7 +400,7 @@
     static void ResetSurfaceList()                           zCall( 0x00647760 );
 
     // static properties
-    static zCSurfaceCache_D3D::zD3D_SlotHeader**& xsc_listofsurfaces;
+    static zCSurfaceCache_D3D::zD3D_SlotHeader** xsc_listofsurfaces;
     static int& xsc_listposition;
 
     // user API

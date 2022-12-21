@@ -72,7 +72,7 @@
 
     // static properties
     static oCNpcFocus*& focus;
-    static oCNpcFocus**& focuslist;
+    static oCNpcFocus** focuslist;
     static int& s_iHightlightMeleeFocus;
     static int& s_bHighlightInteractFocus;
     static oCVisualFX*& highLightFX;

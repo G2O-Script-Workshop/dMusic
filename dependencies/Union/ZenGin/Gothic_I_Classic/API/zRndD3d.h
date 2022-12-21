@@ -363,7 +363,7 @@
     void XSC_KillLastSurfaceInSlot( zD3D_SlotHeader* )       zCall( 0x0071ADB0 );
 
     // static properties
-    static zD3D_SlotHeader**& xsc_listofsurfaces;
+    static zD3D_SlotHeader** xsc_listofsurfaces;
     static int& xsc_listposition;
 
     // user API

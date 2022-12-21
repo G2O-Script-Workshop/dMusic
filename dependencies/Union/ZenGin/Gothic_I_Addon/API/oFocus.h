@@ -68,7 +68,7 @@
 
     // static properties
     static oCNpcFocus*& focus;
-    static oCNpcFocus**& focuslist;
+    static oCNpcFocus** focuslist;
 
     // user API
     #include "oCNpcFocus.inl"

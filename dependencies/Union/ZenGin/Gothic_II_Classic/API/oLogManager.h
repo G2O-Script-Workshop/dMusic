@@ -47,8 +47,8 @@
     void __fastcall Unarchive( zCArchiver& )   zCall( 0x0077A900 );
 
     // statics
-    static char**& ms_strSections;
-    static char**& ms_strStati;
+    static char** ms_strSections;
+    static char** ms_strStati;
 
     // user API
     #include "oCLogTopic.inl"

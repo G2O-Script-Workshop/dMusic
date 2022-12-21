@@ -121,7 +121,7 @@
     static zCGfx*& gfx_equip;
     static zCGfx*& gfx_cursor;
     static zCGfx*& gfx_cursor_equip;
-    static zCGfx**& gfx_arrow;
+    static zCGfx** gfx_arrow;
 
     // user API
     #include "oCItemContainer.inl"
@@ -223,7 +223,7 @@
     virtual oCItem* IsIn( zSTRING const&, int )              zCall( 0x0066CCB0 );
 
     // static properties
-    static zCGfx**& gfx_cats;
+    static zCGfx** gfx_cats;
 
     // user API
     #include "oCNpcInventory.inl"

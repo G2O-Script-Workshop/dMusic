@@ -401,7 +401,7 @@
     static int& s_numClipFeatScene;
     static int& s_numVertListScene;
     static int& s_numFeatListScene;
-    static zCVertex**& s_actClipVert;
+    static zCVertex** s_actClipVert;
     static int& s_actNumClipVert;
 
     // user API

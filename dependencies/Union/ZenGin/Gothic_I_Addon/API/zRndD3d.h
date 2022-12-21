@@ -360,7 +360,7 @@
     void XSC_ClearSlot( zD3D_SlotHeader* )                   zCall( 0x00756F80 );
     void XSC_KillLastSurfaceInSlot( zD3D_SlotHeader* )       zCall( 0x007570C0 );
 
-    static zD3D_SlotHeader**& xsc_listofsurfaces;
+    static zD3D_SlotHeader** xsc_listofsurfaces;
     static int& xsc_listposition;
 
     // user API

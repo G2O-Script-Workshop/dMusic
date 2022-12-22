@@ -12,9 +12,6 @@ file(GLOB SRC
 	"src/api/module_api.h"
 	"src/api/module_api.cpp"
 
-	"src/g2o/*.h"
-	"src/g2o/*.cpp"
-
 	"src/pch.h"
 	"src/sqmain.cpp"
 )

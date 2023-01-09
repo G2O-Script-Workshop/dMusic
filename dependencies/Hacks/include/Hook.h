@@ -6,6 +6,9 @@
 
 #include "untyped.h"
 
+#define HOOK auto
+#define AS = CreateHook
+
 enum class InvokeType
 {
 	kDisabled,

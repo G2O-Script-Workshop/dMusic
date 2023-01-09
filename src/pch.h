@@ -8,6 +8,3 @@
 #include "sqrat.h"
 
 #include "UnionAfx.h"
-
-#define HOOK auto
-#define AS = CreateHook

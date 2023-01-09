@@ -15,7 +15,7 @@ build:windows:
     - cp Release/$CI_PROJECT_NAME.dll ./
 
   after_script:
-    - $env = "windows-x86_JOB_ID=$CI_JOB_ID" -replace "-", "_"
+    - $env = "windows_x86_JOB_ID=$CI_JOB_ID"
     - Add-Content -Path job.env -Value $env
   artifacts:
     name: $CI_PROJECT_NAME

@@ -17,7 +17,19 @@ file(GLOB SRC
 )
 
 add_library(union-template SHARED ${SRC})
-target_precompile_headers(union-template PRIVATE "src/pch.h")
+
+target_compile_definitions(union-template
+	PRIVATE
+		SCRAT_EXPORT
+)
+
+target_precompile_headers(union-template
+	PRIVATE
+		<UnionAfx.h>
+
+		"src/api/module_api.h"
+		"src/api/squirrel_api.h"
+)
 
 target_include_directories(union-template
 	INTERFACE

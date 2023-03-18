@@ -24,8 +24,7 @@ target_compile_definitions(union-template
 
 target_precompile_headers(union-template
 	PRIVATE
-		<UnionAfx.h>
-
+		<GothicAPI/zGothicAPI.h>
 		"src/api/module_api.h"
 		"src/api/squirrel_api.h"
 )

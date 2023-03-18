@@ -3,7 +3,6 @@
 
 #include "G2A.h"
 
-namespace Gothic_II_Addon {
 #ifdef __OCS_MANAGER_H__VER3__
   zCClassDef* oCCSManager::classDef                 = (zCClassDef*)0x008C1DA8;
 #endif
@@ -505,4 +504,3 @@ namespace Gothic_II_Addon {
 #ifdef __ZWAYNET_H__VER3__
   zCClassDef* zCVobSpot::classDef                   = (zCClassDef*)0x00AB6648;
 #endif
-} // Gothic_II_Addon

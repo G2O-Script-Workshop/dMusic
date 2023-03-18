@@ -4,7 +4,6 @@
 #ifndef __OOBJ_FACTORY_H__VER0__
 #define __OOBJ_FACTORY_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 24h
   class oCObjectFactory : public zCObjectFactory {
@@ -29,6 +28,5 @@ namespace Gothic_I_Classic {
     #include "oCObjectFactory.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OOBJ_FACTORY_H__VER0__

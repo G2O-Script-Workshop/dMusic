@@ -4,7 +4,6 @@
 #ifndef __ZCOLLISION_OBJECT_MISC_H__VER1__
 #define __ZCOLLISION_OBJECT_MISC_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 8Ch
   class zCCollObjectBase : public zCCollisionObject {
@@ -277,6 +276,5 @@ namespace Gothic_I_Addon {
     #include "zCCollObjectCharacter.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZCOLLISION_OBJECT_MISC_H__VER1__

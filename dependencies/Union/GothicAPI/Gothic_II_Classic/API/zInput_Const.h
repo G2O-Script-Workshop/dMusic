@@ -4,7 +4,6 @@
 #ifndef __ZINPUT__CONST_H__VER2__
 #define __ZINPUT__CONST_H__VER2__
 
-namespace Gothic_II_Classic {
   #define KEY_ESCAPE          0x01
   #define KEY_1               0x02
   #define KEY_2               0x03
@@ -301,6 +300,5 @@ namespace Gothic_II_Classic {
     zLOGICKEY_LAME_HEAL      = 0x1D
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZINPUT__CONST_H__VER2__

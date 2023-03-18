@@ -4,7 +4,6 @@
 #ifndef __ZMATH_TOOLS_H__VER2__
 #define __ZMATH_TOOLS_H__VER2__
 
-namespace Gothic_II_Classic {
   const int MAX_SAMPLES_POS = 50;
   const int MAX_SAMPLES_ROT = 100;
 
@@ -72,6 +71,5 @@ namespace Gothic_II_Classic {
     #include "zCPose.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZMATH_TOOLS_H__VER2__

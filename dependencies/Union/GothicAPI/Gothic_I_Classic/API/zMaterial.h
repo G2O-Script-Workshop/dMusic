@@ -4,7 +4,6 @@
 #ifndef __ZMATERIAL_H__VER0__
 #define __ZMATERIAL_H__VER0__
 
-namespace Gothic_I_Classic {
 
   enum zTMat_Group {
     zMAT_GROUP_UNDEF,
@@ -120,6 +119,5 @@ namespace Gothic_I_Classic {
     #include "zCMaterial.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMATERIAL_H__VER0__

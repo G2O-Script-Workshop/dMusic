@@ -4,7 +4,6 @@
 #ifndef __ZVIEWS_H__VER1__
 #define __ZVIEWS_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof FCh
   class zCViewWindow : public zCView {
@@ -21,6 +20,5 @@ namespace Gothic_I_Addon {
     #include "zCViewWindow.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEWS_H__VER1__

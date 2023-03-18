@@ -4,7 +4,6 @@
 #ifndef __ZERROR_H__VER2__
 #define __ZERROR_H__VER2__
 
-namespace Gothic_II_Classic {
   const int zERR_NONE           = 0;
   const int zERR_NO             = 1;
   const int zERR_UNKNOWN        = 2;
@@ -105,6 +104,5 @@ namespace Gothic_II_Classic {
     #include "zERROR.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZERROR_H__VER2__

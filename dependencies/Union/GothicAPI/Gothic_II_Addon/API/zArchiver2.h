@@ -6,7 +6,6 @@
 
 #include "zArchiver.h"
 
-namespace Gothic_II_Addon {
   const int READ_BUFFER_SIZE = 1024*8;
 
   enum zTArchiveTypeID {
@@ -157,6 +156,5 @@ namespace Gothic_II_Addon {
     #include "zCArchiverBinSafe.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZARCHIVER2_H__VER3__

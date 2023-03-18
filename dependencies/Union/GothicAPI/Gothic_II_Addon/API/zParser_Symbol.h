@@ -4,7 +4,6 @@
 #ifndef __ZPARSER__SYMBOL_H__VER3__
 #define __ZPARSER__SYMBOL_H__VER3__
 
-namespace Gothic_II_Addon {
   const int zMAX_SYM_DATASTACK = 2048;
 
   // sizeof 0Ch
@@ -206,6 +205,5 @@ namespace Gothic_II_Addon {
     #include "zCPar_DataStack.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZPARSER__SYMBOL_H__VER3__

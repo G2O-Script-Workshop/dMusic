@@ -8,7 +8,6 @@
 #include "zBVolume.h"
 #include "zPluecker.h"
 
-namespace Gothic_II_Addon {
   const int zEMaxPolyThreshold        = 500;
   const int zBSP_LEAF_LIGHT_UNDEFINED = -99;
 
@@ -450,6 +449,5 @@ namespace Gothic_II_Addon {
     #include "zCBuildPortal.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZBSP_H__VER3__

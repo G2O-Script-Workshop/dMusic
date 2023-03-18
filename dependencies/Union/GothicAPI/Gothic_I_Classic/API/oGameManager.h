@@ -6,7 +6,6 @@
 
 #include "zView.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 8Ch
   class CGameManager : public zCInputCallback {
@@ -79,6 +78,5 @@ namespace Gothic_I_Classic {
     #include "CGameManager.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OGAME_MANAGER_H__VER0__

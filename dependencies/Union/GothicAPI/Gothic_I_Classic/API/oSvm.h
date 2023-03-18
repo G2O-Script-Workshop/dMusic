@@ -4,7 +4,6 @@
 #ifndef __OSVM_H__VER0__
 #define __OSVM_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 08h
   class oCSVMManager {
@@ -38,6 +37,5 @@ namespace Gothic_I_Classic {
     #include "oCSVM.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OSVM_H__VER0__

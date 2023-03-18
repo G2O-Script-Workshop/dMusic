@@ -6,7 +6,6 @@
 
 #include "zPlayerInfo.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 28h
   class zCWorldInfo {
@@ -32,6 +31,5 @@ namespace Gothic_II_Addon {
     #include "zCWorldInfo.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZWORLD_INFO_H__VER3__

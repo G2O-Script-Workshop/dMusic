@@ -4,7 +4,6 @@
 #ifndef __ZAI_H__VER1__
 #define __ZAI_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 24h
   class zCAIBase : public zCObject {
@@ -44,6 +43,5 @@ namespace Gothic_I_Addon {
     #include "zCAIBaseSound.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZAI_H__VER1__

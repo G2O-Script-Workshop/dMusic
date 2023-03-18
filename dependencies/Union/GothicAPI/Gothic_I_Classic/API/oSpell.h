@@ -4,7 +4,6 @@
 #ifndef __OSPELL_H__VER0__
 #define __OSPELL_H__VER0__
 
-namespace Gothic_I_Classic {
   const int SPL_LIGHT          = 0;
   const int SPL_FIREBALL       = 1;
   const int SPL_TRANSFORM      = 2;
@@ -198,6 +197,5 @@ namespace Gothic_I_Classic {
     #include "oCSpell.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OSPELL_H__VER0__

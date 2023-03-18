@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_DRAW_H__VER2__
 #define __ZVIEW_DRAW_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 7Ch
   class zCViewDraw : public zCViewObject {
@@ -45,6 +44,5 @@ namespace Gothic_II_Classic {
     #include "zCViewDraw.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZVIEW_DRAW_H__VER2__

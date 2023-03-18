@@ -6,7 +6,6 @@
 
 #include "oVisFx.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 61Ch
   class oCVisFX_MultiTarget : public oCVisualFX {
@@ -39,6 +38,5 @@ namespace Gothic_II_Addon {
     #include "oCVisFX_MultiTarget.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OVIS_FX__MULTI_TARGET_H__VER3__

@@ -4,7 +4,6 @@
 #ifndef __ZPHYSICS_H__VER3__
 #define __ZPHYSICS_H__VER3__
 
-namespace Gothic_II_Addon {
 
   enum zTRigidBodyMode {
     zPHY_RBMODE_FLY   = 0,
@@ -66,6 +65,5 @@ namespace Gothic_II_Addon {
     #include "zCRigidBody.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZPHYSICS_H__VER3__

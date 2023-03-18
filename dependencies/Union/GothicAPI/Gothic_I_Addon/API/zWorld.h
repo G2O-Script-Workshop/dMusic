@@ -4,7 +4,6 @@
 #ifndef __ZWORLD_H__VER1__
 #define __ZWORLD_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zNUM_VOB_HASH = 2048;
 
   enum zTTraceRayFlags {
@@ -343,6 +342,5 @@ namespace Gothic_I_Addon {
     #include "zCWorld.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZWORLD_H__VER1__

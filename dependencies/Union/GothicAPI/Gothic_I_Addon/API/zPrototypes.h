@@ -4,7 +4,6 @@
 #ifndef __ZPROTOTYPES_H__VER1__
 #define __ZPROTOTYPES_H__VER1__
 
-namespace Gothic_I_Addon {
   class zCMemPoolBlock;
   class zCMallocGeneric;
   class zCEngine;
@@ -499,6 +498,5 @@ namespace Gothic_I_Addon {
   enum zTViewAlign;
   enum zTVisualCamAlign;
   enum zTPMLightingMode;
-} // namespace Gothic_II_Addon
 
 #endif // __ZPROTOTYPES_H__VER1__

@@ -9,7 +9,6 @@
 #include "zProgMesh.h"
 #include "zModel.h"
 
-namespace Gothic_II_Addon {
 
   enum zTPFX_EmitterShape {
     zPFX_EMITTER_SHAPE_POINT,
@@ -315,6 +314,5 @@ namespace Gothic_II_Addon {
     #include "zCParticleFX.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZPARTICLE_H__VER3__

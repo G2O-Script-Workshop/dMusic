@@ -10,7 +10,6 @@
 #include "zPlayerInfo.h"
 #include "zPlayerGroup.h"
 
-namespace Gothic_I_Addon {
   const unsigned char zNET_MSGFLAG_FILE     = 1 << 0;
   const unsigned char zNET_MSGFLAG_LOG      = 1 << 1;
   const unsigned char zNET_MSGFLAG_MULTIMSG = 1 << 2;
@@ -104,6 +103,5 @@ namespace Gothic_I_Addon {
     #include "zCNetMessageQueue.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZNET_MESSAGE_H__VER1__

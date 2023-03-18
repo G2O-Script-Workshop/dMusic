@@ -4,7 +4,6 @@
 #ifndef __ZSOUND_MAN_H__VER1__
 #define __ZSOUND_MAN_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zSND_MAN_NUM_COLL_SND = 17;
 
   // sizeof 320h
@@ -106,6 +105,5 @@ namespace Gothic_I_Addon {
     #include "zCSoundManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZSOUND_MAN_H__VER1__

@@ -4,7 +4,6 @@
 #ifndef __ONPC_STATES_H__VER0__
 #define __ONPC_STATES_H__VER0__
 
-namespace Gothic_I_Classic {
   const int NPC_AISTATE_PRG_MAX = 7;
 
   enum {
@@ -121,6 +120,5 @@ namespace Gothic_I_Classic {
     #include "oCNpc_States.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ONPC_STATES_H__VER0__

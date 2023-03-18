@@ -4,7 +4,6 @@
 #ifndef __ZPLUECKER_H__VER1__
 #define __ZPLUECKER_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 18h
   class zCPluecker {
@@ -23,6 +22,5 @@ namespace Gothic_I_Addon {
     #include "zCPluecker.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZPLUECKER_H__VER1__

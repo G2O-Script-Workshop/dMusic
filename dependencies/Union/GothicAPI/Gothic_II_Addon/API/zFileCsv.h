@@ -6,7 +6,6 @@
 
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 228h
   class zCFileCSV : public zFILE_FILE {
@@ -39,6 +38,5 @@ namespace Gothic_II_Addon {
     #include "zCFileCSV.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZFILE_CSV_H__VER3__

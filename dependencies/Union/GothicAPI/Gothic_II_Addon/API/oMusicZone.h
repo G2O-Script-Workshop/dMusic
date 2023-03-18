@@ -7,7 +7,6 @@
 #include "zZone.h"
 #include "zMusic_Dm.h"
 
-namespace Gothic_II_Addon {
 
   enum oHEROSTATUS {
     oHERO_STATUS_STD,
@@ -108,6 +107,5 @@ namespace Gothic_II_Addon {
     #include "oCZoneMusicDefault.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OMUSIC_ZONE_H__VER3__

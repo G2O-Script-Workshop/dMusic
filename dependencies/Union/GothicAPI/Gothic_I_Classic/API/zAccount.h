@@ -4,7 +4,6 @@
 #ifndef __ZACCOUNT_H__VER0__
 #define __ZACCOUNT_H__VER0__
 
-namespace Gothic_I_Classic {
 
   class zCAccount {
   public:
@@ -24,6 +23,5 @@ namespace Gothic_I_Classic {
     #include "zCAccount.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZACCOUNT_H__VER0__

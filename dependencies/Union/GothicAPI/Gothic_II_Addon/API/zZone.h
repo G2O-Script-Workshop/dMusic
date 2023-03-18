@@ -7,7 +7,6 @@
 #include "zVob.h"
 #include "zBVolume.h"
 
-namespace Gothic_II_Addon {
   const int DIMENSION = 3;
 
   // sizeof 44h
@@ -349,7 +348,6 @@ namespace Gothic_II_Addon {
     #include "zCVobSoundDaytime.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #include "zBVolume_Util.h"
 

@@ -4,7 +4,6 @@
 #ifndef __ZSTRING_H__VER3__
 #define __ZSTRING_H__VER3__
 
-namespace Gothic_II_Addon {
 
   enum zTSTR_KIND {
     zSTR_ONLY,
@@ -130,6 +129,5 @@ namespace Gothic_II_Addon {
     return s1.operator !=( s2 );
   }
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSTRING_H__VER3__

@@ -4,7 +4,6 @@
 #ifndef __OINFO_H__VER1__
 #define __OINFO_H__VER1__
 
-namespace Gothic_I_Addon {
   const int INF_ANSWER_MAX = 6;
 
   enum {
@@ -116,6 +115,5 @@ namespace Gothic_I_Addon {
     #include "oCInfoManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OINFO_H__VER1__

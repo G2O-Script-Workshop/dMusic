@@ -10,7 +10,6 @@
 #include "zViewBase.h"
 #include "oDamage.h"
 
-namespace Gothic_I_Addon {
   const int ITM_CAT_NONE        = 1<<0;
   const int ITM_CAT_NF          = 1<<1;
   const int ITM_CAT_FF          = 1<<2;
@@ -183,6 +182,5 @@ namespace Gothic_I_Addon {
     #include "oCItem.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OITEM_H__VER1__

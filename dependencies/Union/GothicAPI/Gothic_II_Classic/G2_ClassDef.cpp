@@ -3,7 +3,6 @@
 
 #include "G2.h"
 
-namespace Gothic_II_Classic {
 #ifdef __OCS_MANAGER_H__VER2__
   zCClassDef* oCCSManager::classDef                 = (zCClassDef*)0x008B37F0;
 #endif
@@ -505,4 +504,3 @@ namespace Gothic_II_Classic {
 #ifdef __ZWAYNET_H__VER2__
   zCClassDef* zCVobSpot::classDef                   = (zCClassDef*)0x00986190;
 #endif
-} // Gothic_II_Classic

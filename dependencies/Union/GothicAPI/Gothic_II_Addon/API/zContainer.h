@@ -6,7 +6,6 @@
 
 #include "zMemory_Generic.h"
 
-namespace Gothic_II_Addon {
   extern zCMallocGeneric* zmalloc;
 
   inline int zArraySortDefaultCompare( const void* ele1, const void* ele2 ) zCall( 0x00553CA0 );
@@ -1159,7 +1158,6 @@ namespace Gothic_II_Addon {
       zmalloc->Free( Entry );
     }
   };
-} // namespace Gothic_II_Addon
 
 
 #endif // __ZCONTAINER_H__VER3__

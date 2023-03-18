@@ -9,7 +9,6 @@
 #include "zVob.h"
 #include "zMathTools.h"
 
-namespace Gothic_I_Classic {
   const int MAX_ITEMS       = 150;
   const int MAX_EVENTS      = 10;
   const int MAX_SEL_ACTIONS = 5;
@@ -390,6 +389,5 @@ namespace Gothic_I_Classic {
     #include "zCMenuItemList.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMENU__ITEM_H__VER0__

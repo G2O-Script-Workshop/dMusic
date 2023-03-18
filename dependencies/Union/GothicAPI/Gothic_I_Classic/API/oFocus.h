@@ -4,7 +4,6 @@
 #ifndef __OFOCUS_H__VER0__
 #define __OFOCUS_H__VER0__
 
-namespace Gothic_I_Classic {
   const int FOCUS_MAX = 6;
 
   enum {
@@ -76,6 +75,5 @@ namespace Gothic_I_Classic {
     #include "oCNpcFocus.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OFOCUS_H__VER0__

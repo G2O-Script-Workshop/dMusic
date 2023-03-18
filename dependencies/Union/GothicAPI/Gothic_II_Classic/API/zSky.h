@@ -4,7 +4,6 @@
 #ifndef __ZSKY_H__VER2__
 #define __ZSKY_H__VER2__
 
-namespace Gothic_II_Classic {
 
   enum zTWeather {
     zTWEATHER_SNOW,
@@ -180,6 +179,5 @@ namespace Gothic_II_Classic {
     #include "zCSkyControler_Indoor.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZSKY_H__VER2__

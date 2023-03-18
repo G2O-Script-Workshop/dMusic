@@ -4,7 +4,6 @@
 #ifndef __OSPELL_H__VER2__
 #define __OSPELL_H__VER2__
 
-namespace Gothic_II_Classic {
   const int SPL_PALLIGHT             = 0;
   const int SPL_PALLIGHTHEAL         = 1;
   const int SPL_PALHOLYBOLT          = 2;
@@ -205,6 +204,5 @@ namespace Gothic_II_Classic {
     #include "oCSpell.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OSPELL_H__VER2__

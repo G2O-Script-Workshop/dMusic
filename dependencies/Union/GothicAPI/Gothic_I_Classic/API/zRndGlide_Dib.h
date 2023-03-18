@@ -4,7 +4,6 @@
 #ifndef __ZRND_GLIDE__DIB_H__VER0__
 #define __ZRND_GLIDE__DIB_H__VER0__
 
-namespace Gothic_I_Classic {
 
   class CDIBSection16 {
   public:
@@ -25,6 +24,5 @@ namespace Gothic_I_Classic {
     CDIBSection16() {}
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRND_GLIDE__DIB_H__VER0__

@@ -12,7 +12,6 @@
 #include "zSound.h"
 #include "zVobMisc.h"
 
-namespace Gothic_I_Classic {
   const int MAX_SPL_LEVEL          = 20;
   const int VFX_MAX_POS_SAMPLES    = 10;
   const int VFX_NUM_USERSTRINGS    = 3;
@@ -419,6 +418,5 @@ namespace Gothic_I_Classic {
     #include "oCVisualFXAI.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OVIS_FX_H__VER0__

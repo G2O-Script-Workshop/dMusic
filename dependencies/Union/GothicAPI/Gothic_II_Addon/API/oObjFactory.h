@@ -6,7 +6,6 @@
 
 #include "zWaynet.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 24h
   class oCObjectFactory : public zCObjectFactory {
@@ -31,6 +30,5 @@ namespace Gothic_II_Addon {
     #include "oCObjectFactory.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OOBJ_FACTORY_H__VER3__

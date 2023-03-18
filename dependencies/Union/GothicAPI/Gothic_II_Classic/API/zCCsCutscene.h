@@ -9,7 +9,6 @@
 #include "zCCsProps.h"
 #include "zCsCamera.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 14h
   struct zTCSBlockPosition {
@@ -339,6 +338,5 @@ namespace Gothic_II_Classic {
     #include "zCCutscene.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZCCS_CUTSCENE_H__VER2__

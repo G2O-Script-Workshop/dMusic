@@ -4,7 +4,6 @@
 #ifndef __ZPARSER__SYMBOL_H__VER0__
 #define __ZPARSER__SYMBOL_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 0Ch
   class zCPar_StringTable {
@@ -204,6 +203,5 @@ namespace Gothic_I_Classic {
     #include "zCPar_DataStack.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZPARSER__SYMBOL_H__VER0__

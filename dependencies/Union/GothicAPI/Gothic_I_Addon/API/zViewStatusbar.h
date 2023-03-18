@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_STATUSBAR_H__VER1__
 #define __ZVIEW_STATUSBAR_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 114h
   class zCViewStatusBar : public zCView {
@@ -34,6 +33,5 @@ namespace Gothic_I_Addon {
     #include "zCViewStatusBar.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_STATUSBAR_H__VER1__

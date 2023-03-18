@@ -4,7 +4,6 @@
 #ifndef __OCOLLISION_OBJECT_MISC_CHAR_H__VER0__
 #define __OCOLLISION_OBJECT_MISC_CHAR_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 144h
   class oCCollObjectCharacter : public zCCollObjectCharacter {
@@ -31,6 +30,5 @@ namespace Gothic_I_Classic {
     #include "oCCollObjectCharacter.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OCOLLISION_OBJECT_MISC_CHAR_H__VER0__

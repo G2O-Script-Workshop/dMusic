@@ -4,7 +4,6 @@
 #ifndef __ZTYPES_H__VER1__
 #define __ZTYPES_H__VER1__
 
-namespace Gothic_I_Addon {
 
   typedef float               zREAL;
   typedef int                 zTFrameCtr;
@@ -59,6 +58,5 @@ namespace Gothic_I_Addon {
   };
 #endif
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZTYPES_H__VER1__

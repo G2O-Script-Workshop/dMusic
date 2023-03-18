@@ -4,7 +4,6 @@
 #ifndef __ZSPARSE_ARRAY_H__VER2__
 #define __ZSPARSE_ARRAY_H__VER2__
 
-namespace Gothic_II_Classic {
   
   class zCSparseArrayManDat {
   public:
@@ -262,6 +261,5 @@ namespace Gothic_II_Classic {
     }
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZSPARSE_ARRAY_H__VER2__

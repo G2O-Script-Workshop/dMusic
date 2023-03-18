@@ -7,7 +7,6 @@
 #include "zParticle.h"
 #include "zSky_Outdoor.h"
 
-namespace Gothic_II_Addon {
 
   enum zTWeather {
     zTWEATHER_SNOW,
@@ -183,6 +182,5 @@ namespace Gothic_II_Addon {
     #include "zCSkyControler_Indoor.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSKY_H__VER3__

@@ -7,7 +7,6 @@
 #include "z3d.h"
 #include "zVob.h"
 
-namespace Gothic_I_Addon {
 
   enum {
     zWAY_JUMP  = 1,
@@ -254,6 +253,5 @@ namespace Gothic_I_Addon {
     #include "zCVobStartpoint.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZWAYNET_H__VER1__

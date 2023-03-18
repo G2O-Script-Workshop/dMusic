@@ -6,7 +6,6 @@
 
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 4Ch
   struct TVDFFINDDATA {
@@ -73,6 +72,5 @@ namespace Gothic_II_Addon {
     #include "zFILE_VDFS.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZDISK__VDFS_H__VER3__

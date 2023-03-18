@@ -4,7 +4,6 @@
 #ifndef __ZSYS_INFO_H__VER3__
 #define __ZSYS_INFO_H__VER3__
 
-namespace Gothic_II_Addon {
 
   // sizeof 6Ch
   class zCSystemInfo {
@@ -57,6 +56,5 @@ namespace Gothic_II_Addon {
     #include "zCSystemInfo.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSYS_INFO_H__VER3__

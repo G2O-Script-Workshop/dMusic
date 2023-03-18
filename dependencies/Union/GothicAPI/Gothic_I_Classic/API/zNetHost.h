@@ -7,7 +7,6 @@
 #include "zNet.h"
 #include "zBuffer.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 44h
   class zCNetHost {
@@ -47,6 +46,5 @@ namespace Gothic_I_Classic {
     #include "zCNetHost.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZNET_HOST_H__VER0__

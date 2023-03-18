@@ -4,7 +4,6 @@
 #ifndef __ZINPUT_H__VER3__
 #define __ZINPUT_H__VER3__
 
-namespace Gothic_II_Addon {
 
   enum zTInputDevice {
     zINPUT_UNDEF,
@@ -149,6 +148,5 @@ namespace Gothic_II_Addon {
     #include "zCInput.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZINPUT_H__VER3__

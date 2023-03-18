@@ -7,7 +7,6 @@
 #include "zVideoPlayer.h"
 #include "zRenderer.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 80h
   class zCBinkPlayer : public zCVideoPlayer {
@@ -48,6 +47,5 @@ namespace Gothic_I_Addon {
     #include "zCBinkPlayer.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZBINK_PLAYER_H__VER1__

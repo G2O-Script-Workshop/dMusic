@@ -6,7 +6,6 @@
 
 #include "zNetHost.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 2Ch
   class zCNetSession {
@@ -26,6 +25,5 @@ namespace Gothic_II_Addon {
     #include "zCNetSession.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZNET_SESSION_H__VER3__

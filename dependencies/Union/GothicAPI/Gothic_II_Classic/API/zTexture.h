@@ -4,7 +4,6 @@
 #ifndef __ZTEXTURE_H__VER2__
 #define __ZTEXTURE_H__VER2__
 
-namespace Gothic_II_Classic {
   const int zTEX_PAL_SIZE_BYTES = 768;
   const int zTEX_LOAD_FLAG_TILE = 1;
   const int zTEX_MAX_ANIS       = 3;
@@ -348,6 +347,5 @@ namespace Gothic_II_Classic {
     #include "zCTextureFileHandler.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZTEXTURE_H__VER2__

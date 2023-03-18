@@ -6,7 +6,6 @@
 
 #include "zVob.h"
 
-namespace Gothic_II_Addon {
   const int MAX_TARGETS = 6;
   const int MAX_SLAVES  = 6;
 
@@ -784,6 +783,5 @@ namespace Gothic_II_Addon {
     #include "zCVobChar.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZVOB_MISC_H__VER3__

@@ -6,7 +6,6 @@
 
 #include "zVobMisc.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 40h
   class zCEventMusicControler : public zCEventMessage {
@@ -53,6 +52,5 @@ namespace Gothic_II_Addon {
     #include "zCMusicControler.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMUSIC_CTRL_H__VER3__

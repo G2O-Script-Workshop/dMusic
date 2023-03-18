@@ -4,7 +4,6 @@
 #ifndef __ZVIDEO_PLAYER_H__VER3__
 #define __ZVIDEO_PLAYER_H__VER3__
 
-namespace Gothic_II_Addon {
 
   // sizeof 30h
   class zCVideoPlayer {
@@ -41,6 +40,5 @@ namespace Gothic_II_Addon {
     #include "zCVideoPlayer.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZVIDEO_PLAYER_H__VER3__

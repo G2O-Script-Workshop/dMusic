@@ -4,7 +4,6 @@
 #ifndef __OLOG_MANAGER_H__VER1__
 #define __OLOG_MANAGER_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 14h
   class oCLogEntry {
@@ -80,6 +79,5 @@ namespace Gothic_I_Addon {
     #include "oCLogManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OLOG_MANAGER_H__VER1__

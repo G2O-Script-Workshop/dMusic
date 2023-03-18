@@ -7,7 +7,6 @@
 #include "zMusic.h"
 #include "zTools.h"
 
-namespace Gothic_I_Classic {
   const int NUM_MOTIFS = 16;
 
   // sizeof 4Ch
@@ -80,6 +79,5 @@ namespace Gothic_I_Classic {
     #include "zCMusicSys_DirectMusic.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMUSIC__DM_H__VER0__

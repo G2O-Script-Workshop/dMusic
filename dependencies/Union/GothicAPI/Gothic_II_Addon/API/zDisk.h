@@ -4,7 +4,6 @@
 #ifndef __ZDISK_H__VER3__
 #define __ZDISK_H__VER3__
 
-namespace Gothic_II_Addon {
   const int zFILE_MAX_OPEN = 6;
 
   enum PATH_ERROR_ID {
@@ -308,6 +307,5 @@ namespace Gothic_II_Addon {
     #include "zPATH.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZDISK_H__VER3__

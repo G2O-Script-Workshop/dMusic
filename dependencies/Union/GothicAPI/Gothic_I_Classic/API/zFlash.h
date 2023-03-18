@@ -4,7 +4,6 @@
 #ifndef __ZFLASH_H__VER0__
 #define __ZFLASH_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 84h
   class zCFlash  : public zCVisual {
@@ -67,6 +66,5 @@ namespace Gothic_I_Classic {
     #include "zCFlash.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZFLASH_H__VER0__

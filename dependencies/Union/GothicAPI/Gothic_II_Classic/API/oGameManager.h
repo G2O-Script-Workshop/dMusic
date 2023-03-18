@@ -4,7 +4,6 @@
 #ifndef __OGAME_MANAGER_H__VER2__
 #define __OGAME_MANAGER_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 94h
   class CGameManager : public zCInputCallback {
@@ -81,6 +80,5 @@ namespace Gothic_II_Classic {
     #include "CGameManager.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OGAME_MANAGER_H__VER2__

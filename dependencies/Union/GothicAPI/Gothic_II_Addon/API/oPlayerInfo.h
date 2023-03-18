@@ -7,7 +7,6 @@
 #include "zBuffer.h"
 #include "zPlayerInfo.h"
 
-namespace Gothic_II_Addon {
   const int MAX_PLAYER_INSTANCES = 5;
 
   enum TPlayerInstance {
@@ -40,6 +39,5 @@ namespace Gothic_II_Addon {
     #include "oCPlayerInfo.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OPLAYER_INFO_H__VER3__

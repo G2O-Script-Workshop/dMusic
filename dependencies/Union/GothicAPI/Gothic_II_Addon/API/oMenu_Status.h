@@ -7,7 +7,6 @@
 #include "zMenu.h"
 #include "oLogManager.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 34h
   struct oSMenuInfoAttribute {
@@ -162,6 +161,5 @@ namespace Gothic_II_Addon {
     #include "oCMapScreen.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OMENU__STATUS_H__VER3__

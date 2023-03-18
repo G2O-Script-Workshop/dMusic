@@ -3,7 +3,6 @@
 
 #include "G1.h"
 
-namespace Gothic_I_Classic {
 #ifdef __ZPROTO_B_VER0__
   zCEngine*&             zengine          = *(zCEngine**)            0x0085E9E8;
   zCOption*&             zoptions         = *(zCOption**)            0x00869694;
@@ -143,4 +142,3 @@ namespace Gothic_I_Classic {
     }
   }
 #endif // __ZPROTO_B_VER0__
-} // Gothic_I_Classic

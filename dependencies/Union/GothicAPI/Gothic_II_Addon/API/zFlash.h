@@ -8,7 +8,6 @@
 #include "zMaterial.h"
 #include "zPolyStrip.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 84h
   class zCFlash  : public zCVisual {
@@ -71,6 +70,5 @@ namespace Gothic_II_Addon {
     #include "zCFlash.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZFLASH_H__VER3__

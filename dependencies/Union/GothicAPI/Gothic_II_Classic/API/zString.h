@@ -7,7 +7,6 @@
 #define USING_UNION_STRING_METHODS TRUE
 #define UNPROTECT_ZSTRING_METHODS  FALSE
 
-namespace Gothic_II_Classic {
   enum zTSTR_KIND {
     zSTR_ONLY,
     zSTR_BEFORE,
@@ -132,7 +131,6 @@ namespace Gothic_II_Classic {
     return s1.operator !=( s2 );
   }
 
-} // namespace Gothic_II_Classic
 
 #undef USING_UNION_STRING_METHODS
 #undef UNPROTECT_ZSTRING_METHODS

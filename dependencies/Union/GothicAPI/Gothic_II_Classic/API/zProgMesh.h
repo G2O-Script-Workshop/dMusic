@@ -4,7 +4,6 @@
 #ifndef __ZPROG_MESH_H__VER2__
 #define __ZPROG_MESH_H__VER2__
 
-namespace Gothic_II_Classic {
   const int NUM_WEDGE_CACHE = 4096;
   const int NUM_POS_CACHE   = 2048;
 
@@ -356,6 +355,5 @@ namespace Gothic_II_Classic {
     #include "zCProgMeshConvertFileHandler.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZPROG_MESH_H__VER2__

@@ -4,7 +4,6 @@
 #ifndef __ZMUSIC_CTRL_H__VER0__
 #define __ZMUSIC_CTRL_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 40h
   class zCEventMusicControler : public zCEventMessage {
@@ -51,6 +50,5 @@ namespace Gothic_I_Classic {
     #include "zCMusicControler.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMUSIC_CTRL_H__VER0__

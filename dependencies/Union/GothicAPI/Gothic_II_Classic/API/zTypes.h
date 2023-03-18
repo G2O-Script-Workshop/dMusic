@@ -4,7 +4,6 @@
 #ifndef __ZTYPES_H__VER2__
 #define __ZTYPES_H__VER2__
 
-namespace Gothic_II_Classic {
   
   typedef float               zREAL;
   typedef int                 zTFrameCtr;
@@ -383,6 +382,5 @@ namespace Gothic_II_Classic {
     TD_zCRoute                             = 0x008BCB74,
     TD_zCVobStartpoint                     = 0x008BCCDC
   };
-} // namespace Gothic_II_Classic
 
 #endif // __ZTYPES_H__VER2__

@@ -7,7 +7,6 @@
 #include "zNetTypes.h"
 #include "zNetMessage.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 4Ch
   class zCNetManager : public zCObject {
@@ -36,6 +35,5 @@ namespace Gothic_I_Addon {
     #include "zCNetManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZNET_MANAGER_H__VER1__

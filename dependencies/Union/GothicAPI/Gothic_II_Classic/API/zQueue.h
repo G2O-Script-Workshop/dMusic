@@ -4,7 +4,6 @@
 #ifndef __ZQUEUE_H__VER2__
 #define __ZQUEUE_H__VER2__
 
-namespace Gothic_II_Classic {
   
   template<class T>
   class zQUEUE_ITEM
@@ -135,6 +134,5 @@ namespace Gothic_II_Classic {
     }
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZQUEUE_H__VER2__

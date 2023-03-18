@@ -7,7 +7,6 @@
 #include "zVob.h"
 #include "oMenu_Status.h"
 
-namespace Gothic_I_Classic {
   const int MIS_NOMISSION   = -1;
   const int MIS_NOTINVOLVED = 0;
   const int MIS_OFFERED     = 1;
@@ -113,6 +112,5 @@ namespace Gothic_I_Classic {
     #include "oCMission.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OMISSION_H__VER0__

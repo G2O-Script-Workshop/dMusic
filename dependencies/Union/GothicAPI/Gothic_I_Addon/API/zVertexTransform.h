@@ -4,7 +4,6 @@
 #ifndef __ZVERTEX_TRANSFORM_H__VER1__
 #define __ZVERTEX_TRANSFORM_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 1Ch
   class zCVertexTransform {
@@ -23,6 +22,5 @@ namespace Gothic_I_Addon {
     #include "zCVertexTransform.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVERTEX_TRANSFORM_H__VER1__

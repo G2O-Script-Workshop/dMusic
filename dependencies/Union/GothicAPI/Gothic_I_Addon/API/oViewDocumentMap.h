@@ -4,7 +4,6 @@
 #ifndef __OVIEW_DOCUMENT_MAP_H__VER1__
 #define __OVIEW_DOCUMENT_MAP_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 210h
   class oCViewDocumentMap : public oCViewDocument {
@@ -37,6 +36,5 @@ namespace Gothic_I_Addon {
     #include "oCViewDocumentMap.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OVIEW_DOCUMENT_MAP_H__VER1__

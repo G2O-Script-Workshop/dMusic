@@ -6,7 +6,6 @@
 
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 18h
   struct TGfx_Gfx {
@@ -54,6 +53,5 @@ namespace Gothic_II_Addon {
     #include "zCGfx.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZGRAFIX_H__VER3__

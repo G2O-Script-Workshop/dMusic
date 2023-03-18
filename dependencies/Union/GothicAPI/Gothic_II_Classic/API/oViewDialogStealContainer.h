@@ -4,7 +4,6 @@
 #ifndef __OVIEW_DIALOG_STEAL_CONTAINER_H__VER2__
 #define __OVIEW_DIALOG_STEAL_CONTAINER_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 110h
   class oCViewDialogStealContainer : public zCViewDialog {
@@ -51,6 +50,5 @@ namespace Gothic_II_Classic {
     #include "oCViewDialogStealContainer.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OVIEW_DIALOG_STEAL_CONTAINER_H__VER2__

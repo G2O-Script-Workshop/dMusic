@@ -4,7 +4,6 @@
 #ifndef __OITEM_REACT_H__VER1__
 #define __OITEM_REACT_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 14h
   class oCTradeManager {
@@ -57,6 +56,5 @@ namespace Gothic_I_Addon {
     #include "oCItemReactModule.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OITEM_REACT_H__VER1__

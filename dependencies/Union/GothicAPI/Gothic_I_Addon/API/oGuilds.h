@@ -6,7 +6,6 @@
 
 #include "zArchiver.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 08h
   class oCGuilds {
@@ -28,6 +27,5 @@ namespace Gothic_I_Addon {
     #include "oCGuilds.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OGUILDS_H__VER1__

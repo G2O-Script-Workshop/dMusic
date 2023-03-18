@@ -4,7 +4,6 @@
 #ifndef __ZNET__WIN32_H__VER3__
 #define __ZNET__WIN32_H__VER3__
 
-namespace Gothic_II_Addon {
 
   // sizeof 10h
   struct zTNetAddress {
@@ -70,6 +69,5 @@ namespace Gothic_II_Addon {
     #include "zTNetTimeout.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZNET__WIN32_H__VER3__

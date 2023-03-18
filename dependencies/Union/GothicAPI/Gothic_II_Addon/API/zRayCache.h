@@ -6,7 +6,6 @@
 
 #include "zPluecker.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 38h
   class zCRayCacheElement {
@@ -55,6 +54,5 @@ namespace Gothic_II_Addon {
     #include "zCRayCache.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZRAY_CACHE_H__VER3__

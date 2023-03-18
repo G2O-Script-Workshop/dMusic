@@ -8,7 +8,6 @@
 #include "zProgMesh.h"
 #include "zModel.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 50h
   class zCMorphMeshAni {
@@ -195,6 +194,5 @@ namespace Gothic_II_Addon {
     #include "zCMorphMeshConvertFileHandler.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMORPH_MESH_H__VER3__

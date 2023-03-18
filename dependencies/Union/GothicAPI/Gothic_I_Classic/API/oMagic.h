@@ -10,7 +10,6 @@
 #include "oSpell.h"
 #include "oItem.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 7Ch
   class oCMag_Book {
@@ -97,6 +96,5 @@ namespace Gothic_I_Classic {
     #include "oCMag_Book.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OMAGIC_H__VER0__

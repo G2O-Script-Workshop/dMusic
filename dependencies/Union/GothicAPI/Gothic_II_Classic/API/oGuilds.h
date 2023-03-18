@@ -6,7 +6,6 @@
 
 #include "zArchiver.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 08h
   class oCGuilds {
@@ -28,6 +27,5 @@ namespace Gothic_II_Classic {
     #include "oCGuilds.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OGUILDS_H__VER2__

@@ -9,7 +9,6 @@
 #include "zVob.h"
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
   const int DEF_NUM_SAMPLES=256;
 
   // sizeof 34h
@@ -69,6 +68,5 @@ namespace Gothic_II_Addon {
     void Movement()                     zCall( 0x005A80F0 );
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMOVING_H__VER3__

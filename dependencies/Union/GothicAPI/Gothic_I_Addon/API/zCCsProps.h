@@ -4,7 +4,6 @@
 #ifndef __ZCCS_PROPS_H__VER1__
 #define __ZCCS_PROPS_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum zTCS_SCReaction {
     SCR_RESULT_NOTHING,
@@ -59,6 +58,5 @@ namespace Gothic_I_Addon {
     #include "zCCSProps.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZCCS_PROPS_H__VER1__

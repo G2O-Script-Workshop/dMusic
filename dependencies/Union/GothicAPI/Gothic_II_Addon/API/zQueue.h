@@ -4,7 +4,6 @@
 #ifndef __ZQUEUE_H__VER3__
 #define __ZQUEUE_H__VER3__
 
-namespace Gothic_II_Addon {
 
   template<class T>
   class zQUEUE_ITEM
@@ -135,6 +134,5 @@ namespace Gothic_II_Addon {
     }
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZQUEUE_H__VER3__

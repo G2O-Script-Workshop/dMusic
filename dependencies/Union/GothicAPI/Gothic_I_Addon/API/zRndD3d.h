@@ -4,7 +4,6 @@
 #ifndef __ZRND_D3D_H__VER1__
 #define __ZRND_D3D_H__VER1__
 
-namespace Gothic_I_Addon {
   const unsigned int MAXBUCKETS       = 256;
   const unsigned int MAXALPHAPOLYS    = 2048;
   const unsigned int MAXTEXTURESTAGES = 4;
@@ -509,6 +508,5 @@ namespace Gothic_I_Addon {
     #include "zCVertexBuffer_D3D.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZRND_D3D_H__VER1__

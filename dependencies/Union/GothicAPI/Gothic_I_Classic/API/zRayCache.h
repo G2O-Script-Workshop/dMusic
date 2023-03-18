@@ -4,7 +4,6 @@
 #ifndef __ZRAY_CACHE_H__VER0__
 #define __ZRAY_CACHE_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 38h
   class zCRayCacheElement {
@@ -53,6 +52,5 @@ namespace Gothic_I_Classic {
     #include "zCRayCache.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRAY_CACHE_H__VER0__

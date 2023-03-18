@@ -7,7 +7,6 @@
 #include "zMenu.h"
 #include "oLogManager.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 34h
   struct oSMenuInfoAttribute {
@@ -161,6 +160,5 @@ namespace Gothic_I_Classic {
     #include "oCMapScreen.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OMENU__STATUS_H__VER0__

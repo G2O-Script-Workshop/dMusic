@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_BASE_H__VER1__
 #define __ZVIEW_BASE_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 04h
   class zCViewBase {
@@ -31,6 +30,5 @@ namespace Gothic_I_Addon {
     #include "zCViewBase.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_BASE_H__VER1__

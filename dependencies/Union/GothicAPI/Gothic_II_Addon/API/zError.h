@@ -4,7 +4,6 @@
 #ifndef __ZERROR_H__VER3__
 #define __ZERROR_H__VER3__
 
-namespace Gothic_II_Addon {
   const int zERR_NONE           = 0;
   const int zERR_NO             = 1;
   const int zERR_UNKNOWN        = 2;
@@ -105,6 +104,5 @@ namespace Gothic_II_Addon {
     #include "zERROR.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZERROR_H__VER3__

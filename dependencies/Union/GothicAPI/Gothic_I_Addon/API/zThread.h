@@ -4,7 +4,6 @@
 #ifndef __ZTHREAD_H__VER1__
 #define __ZTHREAD_H__VER1__
 
-namespace Gothic_I_Addon {
   const int float_OUT_INFINITE = INFINITE;
 
   // sizeof 18h
@@ -88,6 +87,5 @@ namespace Gothic_I_Addon {
     #include "zCMutex.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZTHREAD_H__VER1__

@@ -7,7 +7,6 @@
 #include "zVob.h"
 #include "zArchiver.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 40h
   class zCEventManager : public zCObject {
@@ -71,6 +70,5 @@ namespace Gothic_I_Addon {
     #include "zCEventManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZEVENT_MAN_H__VER1__

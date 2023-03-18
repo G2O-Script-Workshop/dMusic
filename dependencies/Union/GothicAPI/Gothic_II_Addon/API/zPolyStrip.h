@@ -7,7 +7,6 @@
 #include "zVisual.h"
 #include "zMaterial.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof B4h
   class zCPolyStrip : public zCVisual {
@@ -217,6 +216,5 @@ namespace Gothic_II_Addon {
     #include "zCQuadMark.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZPOLY_STRIP_H__VER3__

@@ -4,7 +4,6 @@
 #ifndef __OVIEW_DOCUMENT_H__VER3__
 #define __OVIEW_DOCUMENT_H__VER3__
 
-namespace Gothic_II_Addon {
 
   // sizeof FCh
   class oCViewDocument : public zCViewDialog {
@@ -38,6 +37,5 @@ namespace Gothic_II_Addon {
     #include "oCViewDocument.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OVIEW_DOCUMENT_H__VER3__

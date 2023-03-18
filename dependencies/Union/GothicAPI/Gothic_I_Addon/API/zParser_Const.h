@@ -4,7 +4,6 @@
 #ifndef __ZPARSER__CONST_H__VER1__
 #define __ZPARSER__CONST_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum {
     zPAR_TYPE_VOID,
@@ -93,6 +92,5 @@ namespace Gothic_I_Addon {
     zPAR_TOK_FLAGARRAY   = zPAR_TOK_VAR + 128
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZPARSER__CONST_H__VER1__

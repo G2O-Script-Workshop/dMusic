@@ -4,7 +4,6 @@
 #ifndef __ZMUSIC_H__VER1__
 #define __ZMUSIC_H__VER1__
 
-namespace Gothic_I_Addon {
   const float zMUS_JINGLE_VOL_DEFAULT = -1;
   const float zMUS_THEME_VOL_DEFAULT  = -1;
 
@@ -136,6 +135,5 @@ namespace Gothic_I_Addon {
     #include "zCMusicSys_Dummy.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZMUSIC_H__VER1__

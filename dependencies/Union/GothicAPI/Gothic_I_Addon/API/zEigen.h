@@ -4,7 +4,6 @@
 #ifndef __ZEIGEN_H__VER1__
 #define __ZEIGEN_H__VER1__
 
-namespace Gothic_I_Addon {
 
 #ifndef _IOSFWD_
 #define _ostream unsigned int
@@ -63,6 +62,5 @@ namespace Gothic_I_Addon {
     #include "zCMgcEigenD.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZEIGEN_H__VER1__

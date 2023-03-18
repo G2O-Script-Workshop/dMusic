@@ -17,7 +17,6 @@
 #include "oMagFrontier.h"
 #include "oAiHuman.h"
 
-namespace Gothic_I_Addon {
   static const int NPC_ATR_HITPOINTS                     = 0;
   static const int NPC_ATR_HITPOINTSMAX                  = 1;
   static const int NPC_ATR_MANA                          = 2;
@@ -1347,6 +1346,5 @@ namespace Gothic_I_Addon {
     #include "oCNpc.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ONPC_H__VER1__

@@ -4,7 +4,6 @@
 #ifndef __ZARCHIVER_GENERIC_H__VER0__
 #define __ZARCHIVER_GENERIC_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof BCh
   class zCArchiverGeneric : public zCArchiver {
@@ -143,6 +142,5 @@ namespace Gothic_I_Classic {
     #include "zCArchiverGeneric.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZARCHIVER_GENERIC_H__VER0__

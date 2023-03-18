@@ -4,7 +4,6 @@
 #ifndef __ZVIDEO__WIN32_H__VER1__
 #define __ZVIDEO__WIN32_H__VER1__
 
-namespace Gothic_I_Addon {
   const unsigned int BLIT_COMMANDS = 6;
 
   // sizeof 30h
@@ -97,6 +96,5 @@ namespace Gothic_I_Addon {
     unsigned char* bmpBackground; // sizeof 04h    offset 28h
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIDEO__WIN32_H__VER1__

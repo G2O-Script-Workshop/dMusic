@@ -8,7 +8,6 @@
 #include "zBVolume.h"
 #include "zMemPool.h"
 
-namespace Gothic_II_Addon {
   const int zMAX_POLY_VERTS            = 21;
   const int zMAX_POLY_CLIP_VERTS       = zMAX_POLY_VERTS * 2;
   const int zMAX_POLY_CLIP_VERTS_SCENE = 8192;
@@ -512,6 +511,5 @@ namespace Gothic_II_Addon {
     y = screen->any( fPixelPosY );
   }
 
-} // namespace Gothic_II_Addon
 
 #endif // __Z3D_H__VER3__

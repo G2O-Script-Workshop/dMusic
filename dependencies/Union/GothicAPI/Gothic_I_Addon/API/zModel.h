@@ -4,7 +4,6 @@
 #ifndef __ZMODEL_H__VER1__
 #define __ZMODEL_H__VER1__
 
-namespace Gothic_I_Addon {
   const float zMDL_ANI_BLEND_IN_ZERO   = float_MAX;
   const float zMDL_ANI_BLEND_OUT_ZERO  =-float_MAX;
   const int zMDL_ANIEVENT_MAXSTRING    = 4;
@@ -721,6 +720,5 @@ namespace Gothic_I_Addon {
     #include "zCModelConvertFileHandler.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZMODEL_H__VER1__

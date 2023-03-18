@@ -4,7 +4,6 @@
 #ifndef __ZSESSION_H__VER0__
 #define __ZSESSION_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 1Ch
   class zCSession : public zCInputCallback {
@@ -45,6 +44,5 @@ namespace Gothic_I_Classic {
     #include "zCSession.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZSESSION_H__VER0__

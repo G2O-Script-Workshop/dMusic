@@ -4,7 +4,6 @@
 #ifndef __ZZONE_H__VER0__
 #define __ZZONE_H__VER0__
 
-namespace Gothic_I_Classic {
   const int DIMENSION=3;
 
   // sizeof 44h
@@ -342,7 +341,6 @@ namespace Gothic_I_Classic {
     #include "zCVobSoundDaytime.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #include "zBVolume_Util.h"
 

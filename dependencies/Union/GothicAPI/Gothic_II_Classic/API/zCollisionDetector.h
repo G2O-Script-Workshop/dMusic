@@ -4,7 +4,6 @@
 #ifndef __ZCOLLISION_DETECTOR_H__VER2__
 #define __ZCOLLISION_DETECTOR_H__VER2__
 
-namespace Gothic_II_Classic {
   const int zNUM_COLL_REPORTS = 16;
 
   // sizeof 34h
@@ -56,6 +55,5 @@ namespace Gothic_II_Classic {
     #include "zCCollisionDetector.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZCOLLISION_DETECTOR_H__VER2__

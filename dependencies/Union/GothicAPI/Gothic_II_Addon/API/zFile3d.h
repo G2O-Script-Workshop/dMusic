@@ -7,7 +7,6 @@
 #include "z3d.h"
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 01h
   class zCFile3DS {
@@ -62,6 +61,5 @@ namespace Gothic_II_Addon {
     #include "zCFileBIN.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZFILE3D_H__VER3__

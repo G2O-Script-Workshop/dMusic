@@ -4,7 +4,6 @@
 #ifndef __OMAG_FRONTIER_H__VER1__
 #define __OMAG_FRONTIER_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 10h
   class oCMagFrontier {
@@ -31,6 +30,5 @@ namespace Gothic_I_Addon {
     #include "oCMagFrontier.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OMAG_FRONTIER_H__VER1__

@@ -6,7 +6,6 @@
 
 #include "zResource.h"
 
-namespace Gothic_II_Addon {
   const int zSND_FREQ_DEFAULT         = -1;
   const float zSND_PAN_DEFAULT        = -2;
   const float zSND_PAN_LEFT           =-1.0F;
@@ -159,6 +158,5 @@ namespace Gothic_II_Addon {
     #include "zCSoundSystemDummy.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSOUND_H__VER3__

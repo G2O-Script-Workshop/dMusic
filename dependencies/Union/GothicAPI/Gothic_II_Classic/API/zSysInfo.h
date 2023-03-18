@@ -4,7 +4,6 @@
 #ifndef __ZSYS_INFO_H__VER2__
 #define __ZSYS_INFO_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 6Ch
   class zCSystemInfo {
@@ -57,6 +56,5 @@ namespace Gothic_II_Classic {
     #include "zCSystemInfo.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZSYS_INFO_H__VER2__

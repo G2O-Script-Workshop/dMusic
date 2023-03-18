@@ -4,7 +4,6 @@
 #ifndef __OPROTOTYPES_H__VER2__
 #define __OPROTOTYPES_H__VER2__
 
-namespace Gothic_II_Classic {
   class oCAICamera;
   class oCAIHuman;
   class oCAIHuman_Stand;
@@ -159,6 +158,5 @@ namespace Gothic_II_Classic {
   enum oEStealContainerAlignment;
   enum oTGameDialogView;
   enum oEDescDamageFlags;
-} // namespace Gothic_II_Classic
 
 #endif // __OPROTOTYPES_H__VER2__

@@ -6,7 +6,6 @@
 
 #include "zCCsProps.h"
 
-namespace Gothic_I_Classic {
   const int CS_PLAYING = 1<<0;
   const int CS_PLAYED  = 1<<1;
 
@@ -45,6 +44,5 @@ namespace Gothic_I_Classic {
     virtual void Unarchive( zCArchiver& )                                         zCall( 0x00420F00 );
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZCCS_POOL_H__VER0__

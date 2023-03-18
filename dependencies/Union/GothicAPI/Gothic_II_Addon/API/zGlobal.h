@@ -4,7 +4,6 @@
 #ifndef __ZGLOBAL_H__VER3__
 #define __ZGLOBAL_H__VER3__
 
-namespace Gothic_II_Addon {
   extern zCEngine*&             zengine;
   extern zCOption*&             zoptions;
   extern zCOption*&             zgameoptions;
@@ -138,6 +137,5 @@ namespace Gothic_II_Addon {
     }
   }
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZGLOBAL_H__VER3__

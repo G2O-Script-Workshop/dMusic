@@ -8,7 +8,6 @@
 #include "zRenderer.h"
 #include "zScanDir.h"
 
-namespace Gothic_II_Addon {
   const int NUM_WEDGE_CACHE = 4096;
   const int NUM_POS_CACHE   = 2048;
   const int NUM_LOD_CACHE   = 4096;
@@ -373,6 +372,5 @@ namespace Gothic_II_Addon {
     #include "zCProgMeshConvertFileHandler.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZPROG_MESH_H__VER3__

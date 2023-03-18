@@ -9,7 +9,6 @@
 #include "zNetSession.h"
 #include "zTools.h"
 
-namespace Gothic_I_Classic {
   const int zNET_FLAG_INIT    = 1;
   const int zNET_FLAG_CONNECT = 2;
 
@@ -107,6 +106,5 @@ namespace Gothic_I_Classic {
     #include "zCNet.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZNET_H__VER0__

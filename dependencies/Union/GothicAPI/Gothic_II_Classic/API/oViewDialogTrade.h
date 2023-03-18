@@ -4,7 +4,6 @@
 #ifndef __OVIEW_DIALOG_TRADE_H__VER2__
 #define __OVIEW_DIALOG_TRADE_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 110h
   class oCViewDialogTrade : public zCViewDialog {
@@ -57,6 +56,5 @@ namespace Gothic_II_Classic {
     #include "oCViewDialogTrade.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OVIEW_DIALOG_TRADE_H__VER2__

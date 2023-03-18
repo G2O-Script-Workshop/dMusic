@@ -6,7 +6,6 @@
 
 #include "zCCsProps.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 88h
   class oCCSProps : public zCCSProps {
@@ -30,6 +29,5 @@ namespace Gothic_I_Classic {
     #include "oCCSProps.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OCS_PROPS_H__VER0__

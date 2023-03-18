@@ -7,7 +7,6 @@
 #pragma warning(push)
 #pragma warning(disable:4244)
 
-namespace Gothic_I_Classic {
   const double PI_LONG     = 3.14159265359;
   const double RAD_LONG    = PI_LONG / 180.0f;
   const double DEGREE_LONG = 180.0 / PI_LONG;
@@ -1521,7 +1520,6 @@ namespace Gothic_I_Classic {
   inline zVEC3 Alg_RotationAxis( zVEC3 const& v1, zVEC3 const& v2 ) {
     return v1.Cross( v2 );
   }
-} // namespace Gothic_I_Classic
 
 #pragma warning(pop)
 

@@ -11,7 +11,6 @@
 #include "oSpell.h"
 #include "oRoutine.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 4Ch
   class oCAICamera : public zCAIBase {
@@ -138,6 +137,5 @@ namespace Gothic_II_Addon {
     #include "oCAIHuman_Stand.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OAI_HUMAN_H__VER3__

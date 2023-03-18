@@ -4,7 +4,6 @@
 #ifndef __ZTYPES3D_H__VER2__
 #define __ZTYPES3D_H__VER2__
 
-namespace Gothic_II_Classic {
   const float float_MIN = -FLT_MAX;
   const float float_MAX =  FLT_MAX;
 
@@ -98,6 +97,5 @@ namespace Gothic_II_Classic {
     #include "zTPlane.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZTYPES3D_H__VER2__

@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_PRINT__FONT_H__VER3__
 #define __ZVIEW_PRINT__FONT_H__VER3__
 
-namespace Gothic_II_Addon {
 
   // sizeof 14h
   class zCViewFont {
@@ -65,6 +64,5 @@ namespace Gothic_II_Addon {
     #include "zCViewText2.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZVIEW_PRINT__FONT_H__VER3__

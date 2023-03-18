@@ -4,7 +4,6 @@
 #ifndef __ZRENDERER_H__VER0__
 #define __ZRENDERER_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zRND_FOG_FALLOFF_LINEAR = 0;
 
   enum zTRnd_PolySortMode {
@@ -452,6 +451,5 @@ namespace Gothic_I_Classic {
     #include "zCRenderer.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRENDERER_H__VER0__

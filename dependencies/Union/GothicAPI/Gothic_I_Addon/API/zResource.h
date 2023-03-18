@@ -4,7 +4,6 @@
 #ifndef __ZRESOURCE_H__VER1__
 #define __ZRESOURCE_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zMAX_CACHE_IN_PRIO = 65535;
 
   enum zTResourceCacheState {
@@ -121,6 +120,5 @@ namespace Gothic_I_Addon {
     #include "zCResource.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZRESOURCE_H__VER1__

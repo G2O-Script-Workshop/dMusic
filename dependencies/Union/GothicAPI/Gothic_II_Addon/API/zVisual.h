@@ -7,7 +7,6 @@
 #include "z3d.h"
 #include "zBVolume.h"
 
-namespace Gothic_II_Addon {
 
   enum {
     zVISUAL_CAMALIGN_NONE,
@@ -280,6 +279,5 @@ namespace Gothic_II_Addon {
     #include "zCMesh.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZVISUAL_H__VER3__

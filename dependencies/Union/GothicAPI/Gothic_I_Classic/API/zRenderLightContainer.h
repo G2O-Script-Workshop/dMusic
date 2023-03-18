@@ -4,7 +4,6 @@
 #ifndef __ZRENDER_LIGHT_CONTAINER_H__VER0__
 #define __ZRENDER_LIGHT_CONTAINER_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zRENDERLIGHT_LIGHT_MAX = 8;
 
   // sizeof 2A8h
@@ -45,6 +44,5 @@ namespace Gothic_I_Classic {
     #include "zCRenderLightContainer.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRENDER_LIGHT_CONTAINER_H__VER0__

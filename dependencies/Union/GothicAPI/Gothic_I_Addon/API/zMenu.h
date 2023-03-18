@@ -8,7 +8,6 @@
 #include "zMenu_Item.h"
 #include "zInput.h"
 
-namespace Gothic_I_Addon {
 
   enum zTMenuFlags {
     MN_UNDEF,
@@ -138,6 +137,5 @@ namespace Gothic_I_Addon {
     #include "zCMenu.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZMENU_H__VER1__

@@ -6,7 +6,6 @@
 
 #include "zCCsCutscene.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 40h
   class zCCSLib : public zCObject {
@@ -40,6 +39,5 @@ namespace Gothic_II_Addon {
     #include "zCCSLib.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZCCS_LIB_H__VER3__

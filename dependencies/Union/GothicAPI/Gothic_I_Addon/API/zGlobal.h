@@ -4,7 +4,6 @@
 #ifndef __ZGLOBAL_H__VER1__
 #define __ZGLOBAL_H__VER1__
 
-namespace Gothic_I_Addon {
   extern zCEngine*&             zengine;
   extern zCOption*&             zoptions;
   extern zCOption*&             zgameoptions;
@@ -136,6 +135,5 @@ namespace Gothic_I_Addon {
       extern HWND&      Window;   // Origin name: hWndApp;
     }
   }
-} // namespace Gothic_II_Addon
 
 #endif // __ZGLOBAL_H__VER1__

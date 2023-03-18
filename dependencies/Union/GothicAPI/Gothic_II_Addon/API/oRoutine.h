@@ -6,7 +6,6 @@
 
 #include "zVob.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 38h
   class oCRtnCutscene {
@@ -130,6 +129,5 @@ namespace Gothic_II_Addon {
     #include "oCRtnManager.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OROUTINE_H__VER3__

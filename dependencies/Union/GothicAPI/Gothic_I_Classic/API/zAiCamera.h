@@ -8,7 +8,6 @@
 #include "zGrafix.h"
 #include "zBVolume.h"
 
-namespace Gothic_I_Classic {
   const int MAX_CTRL_VOBS = 80;
 
   // sizeof 294h
@@ -142,6 +141,5 @@ namespace Gothic_I_Classic {
     #include "zCAICamera.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZAI_CAMERA_H__VER0__

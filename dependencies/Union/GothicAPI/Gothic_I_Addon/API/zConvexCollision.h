@@ -4,7 +4,6 @@
 #ifndef __ZCONVEX_COLLISION_H__VER1__
 #define __ZCONVEX_COLLISION_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 08h
   class zCCacheIndex {
@@ -120,6 +119,5 @@ namespace Gothic_I_Addon {
     #include "zCConvexPrimitiveEllipsoid.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZCONVEX_COLLISION_H__VER1__

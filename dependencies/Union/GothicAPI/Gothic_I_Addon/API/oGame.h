@@ -11,7 +11,6 @@
 #include "oMusicZone.h"
 #include "oSavegame.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 180h
   class oCGame : public zCSession {
@@ -213,6 +212,5 @@ namespace Gothic_I_Addon {
     #include "oCGame.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OGAME_H__VER1__

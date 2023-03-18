@@ -8,7 +8,6 @@
 #include "zNetTypes.h"
 #include "zNetSession.h"
 
-namespace Gothic_II_Classic {
   const int zNET_FLAG_INIT    = 1;
   const int zNET_FLAG_CONNECT = 2;
 
@@ -106,6 +105,5 @@ namespace Gothic_II_Classic {
     #include "zCNet.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZNET_H__VER2__

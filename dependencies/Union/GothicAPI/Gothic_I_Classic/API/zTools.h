@@ -4,7 +4,6 @@
 #ifndef __ZTOOLS_H__VER0__
 #define __ZTOOLS_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zRAND_MAX = 0x7fff;
   const float _PI     = 3.14159265358979323846f;
 
@@ -86,6 +85,5 @@ namespace Gothic_I_Classic {
     #include "zCFPUControler.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZTOOLS_H__VER0__

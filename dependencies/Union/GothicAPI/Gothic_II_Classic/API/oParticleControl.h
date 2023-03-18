@@ -6,7 +6,6 @@
 
 #include "zVob.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 38h
   class oCParticleControl {
@@ -43,6 +42,5 @@ namespace Gothic_II_Classic {
     #include "oCParticleControl.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OPARTICLE_CONTROL_H__VER2__

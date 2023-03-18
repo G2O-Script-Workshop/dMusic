@@ -4,7 +4,6 @@
 #ifndef __ZVIEWS_H__VER2__
 #define __ZVIEWS_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 100h
   class zCViewWindow : public zCView {
@@ -21,6 +20,5 @@ namespace Gothic_II_Classic {
     #include "zCViewWindow.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZVIEWS_H__VER2__

@@ -7,7 +7,6 @@
 #include "zBinkPlayer.h"
 #include "zRenderer.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 88h
   class oCBinkPlayer : public zCBinkPlayer {
@@ -28,6 +27,5 @@ namespace Gothic_II_Addon {
     #include "oCBinkPlayer.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OBINK_PLAYER_H__VER3__

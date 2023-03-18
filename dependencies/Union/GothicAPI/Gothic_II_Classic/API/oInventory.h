@@ -7,7 +7,6 @@
 #include "zViewBase.h"
 #include "zArchiver.h"
 
-namespace Gothic_II_Classic {
   const int INV_MAX_SLOTS_COL = 8;
   const int INV_MAX_SLOTS_ROW = 2;
 
@@ -245,6 +244,5 @@ namespace Gothic_II_Classic {
     #include "oCNpcInventory.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OINVENTORY_H__VER2__

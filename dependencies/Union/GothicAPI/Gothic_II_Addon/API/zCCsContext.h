@@ -7,7 +7,6 @@
 #include "zCCsCutscene.h"
 #include "zCCsLib.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof ACh
   class zCCSCutsceneContext : public zCCutscene {
@@ -117,6 +116,5 @@ namespace Gothic_II_Addon {
     #include "zCCSDebugger.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZCCS_CONTEXT_H__VER3__

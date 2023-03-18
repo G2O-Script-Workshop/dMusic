@@ -4,7 +4,6 @@
 #ifndef __ZFONTS_H__VER2__
 #define __ZFONTS_H__VER2__
 
-namespace Gothic_II_Classic {
   const int zFONT_MAX_LETTER = 256;
 
   // sizeof 111Ch
@@ -70,6 +69,5 @@ namespace Gothic_II_Classic {
     #include "zCFontMan.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZFONTS_H__VER2__

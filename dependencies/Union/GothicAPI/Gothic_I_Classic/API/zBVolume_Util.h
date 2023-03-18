@@ -4,7 +4,6 @@
 #ifndef __ZBVOLUME_UTIL_H__VER0__
 #define __ZBVOLUME_UTIL_H__VER0__
 
-namespace Gothic_I_Classic {
   template <class VOB> class zCVobBBox3DSorter : public zCBBox3DSorterBase {
   public:
 
@@ -71,6 +70,5 @@ namespace Gothic_I_Classic {
     }
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZBVOLUME_UTIL_H__VER0__

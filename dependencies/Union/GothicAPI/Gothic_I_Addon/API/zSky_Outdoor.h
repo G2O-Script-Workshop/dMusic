@@ -6,7 +6,6 @@
 
 #include "zRenderManager.h"
 
-namespace Gothic_I_Addon {
   const int zEFFECT_BOX_SIDES    = 2500;
   const int zEFFECT_BOX_HEIGHT   = 1000;
   const int zMAX_FLY_PARTICLE    = 1024;
@@ -75,6 +74,5 @@ namespace Gothic_I_Addon {
     #include "zCOutdoorRainFX.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZSKY__OUTDOOR_H__VER1__

@@ -7,7 +7,6 @@
 #include "zTools.h"
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 24h
   class zCAIBase : public zCObject {
@@ -48,6 +47,5 @@ namespace Gothic_II_Addon {
     #include "zCAIBaseSound.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZAI_H__VER3__

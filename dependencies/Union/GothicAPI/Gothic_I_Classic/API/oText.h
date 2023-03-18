@@ -7,7 +7,6 @@
 #include "zView.h"
 #include "zParser.h"
 
-namespace Gothic_I_Classic {
 
   class oCText {
   public:
@@ -63,6 +62,5 @@ namespace Gothic_I_Classic {
     #include "oCText.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OTEXT_H__VER0__

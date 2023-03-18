@@ -6,7 +6,6 @@
 
 #include "zRndD3d.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 32Ch
   struct dxDEVICE {
@@ -39,6 +38,5 @@ namespace Gothic_I_Classic {
     #include "zD3DTEX.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRND_D3D__INIT_H__VER0__

@@ -8,7 +8,6 @@
 #include "zCCsLib.h"
 #include "zCCsContext.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 68h
   class zCCSPlayer : public zCObject, public zCCSDebugger {
@@ -76,6 +75,5 @@ namespace Gothic_I_Addon {
     #include "zCCSPlayer.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZCCS_PLAYER_H__VER1__

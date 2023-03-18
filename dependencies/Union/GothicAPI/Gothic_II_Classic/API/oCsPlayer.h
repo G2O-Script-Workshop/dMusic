@@ -6,7 +6,6 @@
 
 #include "zCCsPlayer.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 68h
   class oCCSPlayer : public zCCSPlayer {
@@ -26,6 +25,5 @@ namespace Gothic_II_Classic {
     #include "oCCSPlayer.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OCS_PLAYER_H__VER2__

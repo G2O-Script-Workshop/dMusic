@@ -4,7 +4,6 @@
 #ifndef __ZOPTION_H__VER1__
 #define __ZOPTION_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum zTOptionPaths {
     DIR_SYSTEM,
@@ -135,6 +134,5 @@ namespace Gothic_I_Addon {
     #include "zCOption.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZOPTION_H__VER1__

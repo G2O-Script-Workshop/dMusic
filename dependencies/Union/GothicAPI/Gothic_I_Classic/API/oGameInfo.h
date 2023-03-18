@@ -6,7 +6,6 @@
 
 #include "zGameInfo.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 18h
   class oCGameInfo : public zCGameInfo {
@@ -23,6 +22,5 @@ namespace Gothic_I_Classic {
     #include "oCGameInfo.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OGAME_INFO_H__VER0__

@@ -6,7 +6,6 @@
 
 #include "zAi.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 48h
   class oCAskBox : public zCAIBase {
@@ -34,6 +33,5 @@ namespace Gothic_II_Classic {
     #include "oCAskBox.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ODIALOG_H__VER2__

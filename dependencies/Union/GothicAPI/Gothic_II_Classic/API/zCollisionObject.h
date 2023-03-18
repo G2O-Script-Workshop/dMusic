@@ -4,7 +4,6 @@
 #ifndef __ZCOLLISION_OBJECT_H__VER2__
 #define __ZCOLLISION_OBJECT_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 0Ch
   class zCCollisionObjectDef {
@@ -54,6 +53,5 @@ namespace Gothic_II_Classic {
     #include "zCCollisionObject.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZCOLLISION_OBJECT_H__VER2__

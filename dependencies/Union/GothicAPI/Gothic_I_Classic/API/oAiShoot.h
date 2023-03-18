@@ -10,7 +10,6 @@
 #include "zArchiver.h"
 #include "zCollisionDetector.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 2Ch
   class oCAISound : public zCAIBase {
@@ -179,6 +178,5 @@ namespace Gothic_I_Classic {
     #include "oCAIVobMoveTorch.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OAI_SHOOT_H__VER0__

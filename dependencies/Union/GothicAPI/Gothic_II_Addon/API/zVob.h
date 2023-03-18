@@ -9,7 +9,6 @@
 #include "zSound.h"
 #include "zVisual.h"
 
-namespace Gothic_II_Addon {
 
   enum zTVobType {
     zVOB_TYPE_NORMAL,
@@ -571,6 +570,5 @@ namespace Gothic_II_Addon {
     #include "zCVobLevelCompo.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZVOB_H__VER3__

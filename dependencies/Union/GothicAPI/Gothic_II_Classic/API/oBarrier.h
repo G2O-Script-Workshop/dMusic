@@ -4,7 +4,6 @@
 #ifndef __OBARRIER_H__VER2__
 #define __OBARRIER_H__VER2__
 
-namespace Gothic_II_Classic {
 
   enum zTThunderSector {
     zTThunderSector_None,
@@ -134,6 +133,5 @@ namespace Gothic_II_Classic {
     #include "oCSkyControler_Barrier.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OBARRIER_H__VER2__

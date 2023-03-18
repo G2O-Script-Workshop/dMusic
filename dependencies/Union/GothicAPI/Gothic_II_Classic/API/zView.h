@@ -11,7 +11,6 @@
 #include "zRenderer.h"
 #include "zViewBase.h"
 
-namespace Gothic_II_Classic {
   const int VIEW_GROUNDED   = 1<<3;
   const int VIEW_MODAL      = 1<<6;
   const int VIEW_AUTOSCROLL = 1<<8;
@@ -262,6 +261,5 @@ namespace Gothic_II_Classic {
   inline int VirtualToPixelX( int x ) { return screen->nax( x ); }
   inline int VirtualToPixelY( int y ) { return screen->nay( y ); }
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZVIEW_H__VER2__

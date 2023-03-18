@@ -4,7 +4,6 @@
 #ifndef __ZPLAYER_GROUP_H__VER2__
 #define __ZPLAYER_GROUP_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 24h
   class zCPlayerGroup {
@@ -39,6 +38,5 @@ namespace Gothic_II_Classic {
     #include "zCPlayerGroup.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZPLAYER_GROUP_H__VER2__

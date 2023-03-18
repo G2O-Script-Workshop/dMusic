@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_OBJECT_H__VER1__
 #define __ZVIEW_OBJECT_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 08h
   typedef class zCPosition {
@@ -77,6 +76,5 @@ namespace Gothic_I_Addon {
     #include "zCViewObject.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_OBJECT_H__VER1__

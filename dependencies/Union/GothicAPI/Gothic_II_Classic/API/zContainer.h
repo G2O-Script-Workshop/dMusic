@@ -6,7 +6,6 @@
 
 #include "zMemory_Generic.h"
 
-namespace Gothic_II_Classic {
   extern zCMallocGeneric* zmalloc;
 
   const int zARRAY_START_ALLOC = 16;
@@ -1159,6 +1158,5 @@ namespace Gothic_II_Classic {
       zmalloc->Free( Entry );
     }
   };
-} // namespace Gothic_II_Classic
 
 #endif // __ZCONTAINER_H__VER2__

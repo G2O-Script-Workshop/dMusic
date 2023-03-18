@@ -4,7 +4,6 @@
 #ifndef __OINFORMATION_MANAGER_H__VER2__
 #define __OINFORMATION_MANAGER_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 58h
   class oCInformationManager {
@@ -78,6 +77,5 @@ namespace Gothic_II_Classic {
     #include "oCInformationManager.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OINFORMATION_MANAGER_H__VER2__

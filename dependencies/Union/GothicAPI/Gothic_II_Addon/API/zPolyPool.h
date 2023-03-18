@@ -7,7 +7,6 @@
 #include "z3d.h"
 #include "zVisual.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 0Ch
   class zCVertexFeaturePool {
@@ -74,6 +73,5 @@ namespace Gothic_II_Addon {
     #include "zCMeshesPool.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZPOLY_POOL_H__VER3__

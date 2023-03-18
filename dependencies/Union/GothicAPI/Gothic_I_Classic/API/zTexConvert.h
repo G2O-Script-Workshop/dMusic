@@ -7,7 +7,6 @@
 #include "zRenderer.h"
 #include "z3d.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 04h
   struct RGBPIXEL {
@@ -51,6 +50,5 @@ namespace Gothic_I_Classic {
     #include "zCTexConGeneric.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZTEX_CONVERT_H__VER0__

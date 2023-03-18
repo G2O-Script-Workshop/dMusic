@@ -7,7 +7,6 @@
 #include "zNet_Win32.h"
 #include "zDisk.h"
 
-namespace Gothic_II_Addon {
   const int zNET_MAX_TYPES         = 10;
   const int zNET_MAX_HOSTS         = 5;
   const int zNET_MAX_HOSTID        = 255;
@@ -65,6 +64,5 @@ namespace Gothic_II_Addon {
     NET_MULTIPLAYER
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZNET_TYPES_H__VER3__

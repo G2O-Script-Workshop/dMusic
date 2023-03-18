@@ -12,7 +12,6 @@
 #include "oMusicZone.h"
 #include "oSavegame.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 180h
   class oCGame : public zCSession {
@@ -214,6 +213,5 @@ namespace Gothic_I_Classic {
     #include "oCGame.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OGAME_H__VER0__

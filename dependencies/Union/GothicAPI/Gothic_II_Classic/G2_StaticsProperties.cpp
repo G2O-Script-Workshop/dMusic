@@ -3,7 +3,6 @@
 
 #include "G2.h"
 
-namespace Gothic_II_Classic {
   
 #ifdef __OAI_HUMAN_H__VER2__
   zSTRING& oCAIHuman::Cam_Normal = *(zSTRING*)0x0097E3C8;
@@ -564,5 +563,3 @@ namespace Gothic_II_Classic {
   zCCollisionObjectDef* zCCollObjectCharacter::s_oCollObjClass      = (zCCollisionObjectDef*)0x008C9CDC;
   zCCollisionObjectDef* zCCollObjectProjectile::s_oCollObjClass     = (zCCollisionObjectDef*)0x008C9CE8;
 #endif // __ZCOLLISION_OBJECT_MISC_H__VER2__
-
-} // namespace Gothic_II_Classic

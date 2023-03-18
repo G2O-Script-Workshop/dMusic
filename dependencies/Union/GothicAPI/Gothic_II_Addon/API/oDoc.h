@@ -6,7 +6,6 @@
 
 #include "zViewBase.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 134h
   class oCDoc : public zCView {
@@ -40,6 +39,5 @@ namespace Gothic_II_Addon {
     #include "oCDoc.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ODOC_H__VER3__

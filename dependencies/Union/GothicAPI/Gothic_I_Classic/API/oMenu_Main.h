@@ -6,7 +6,6 @@
 
 #include "zMenu.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof CC4h
   class oCMenu_ChgKeys : public zCMenu {
@@ -43,6 +42,5 @@ namespace Gothic_I_Classic {
     #include "oCMenu_Main.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OMENU__MAIN_H__VER0__

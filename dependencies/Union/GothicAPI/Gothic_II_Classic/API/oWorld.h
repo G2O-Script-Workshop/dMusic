@@ -7,7 +7,6 @@
 #include "z3d.h"
 #include "oVob.h"
 
-namespace Gothic_II_Classic {
   const float WLD_TICKSPERHOUR = 250000.0f;
   const float WLD_TICKSPERMIN  = WLD_TICKSPERHOUR / 60.0f;
   const float WLD_TICKSPERSEC  = WLD_TICKSPERMIN / 60.0f;
@@ -88,6 +87,5 @@ namespace Gothic_II_Classic {
     #include "oCWorldTimer.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OWORLD_H__VER2__

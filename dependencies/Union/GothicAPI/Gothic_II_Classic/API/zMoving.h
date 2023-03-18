@@ -8,7 +8,6 @@
 #include "zOption.h"
 #include "zVob.h"
 
-namespace Gothic_II_Classic {
   const int DEF_NUM_SAMPLES=256;
 
   // sizeof 34h
@@ -68,6 +67,5 @@ namespace Gothic_II_Classic {
     void Movement()                     zCall( 0x005A2B90 );
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZMOVING_H__VER2__

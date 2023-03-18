@@ -7,7 +7,6 @@
 #include "zRenderer.h"
 #include "z3d.h"
 
-namespace Gothic_II_Addon {
   const int zRENDERMAN_NUM_SHADER        = 64;
   const int zRENDERMAN_NUM_SHADER_STAGES = zRENDERMAN_NUM_SHADER * 4;
   const int MAX_STAGES                   = 4;
@@ -217,6 +216,5 @@ namespace Gothic_II_Addon {
     #include "zCMapDetailTexture.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZRENDER_MANAGER_H__VER3__

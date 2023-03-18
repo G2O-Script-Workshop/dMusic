@@ -4,7 +4,6 @@
 #ifndef __ZMORPH_MESH_H__VER1__
 #define __ZMORPH_MESH_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 50h
   class zCMorphMeshAni {
@@ -187,6 +186,5 @@ namespace Gothic_I_Addon {
     #include "zCMorphMeshConvertFileHandler.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZMORPH_MESH_H__VER1__

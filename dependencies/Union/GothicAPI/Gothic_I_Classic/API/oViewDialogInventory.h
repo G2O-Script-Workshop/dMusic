@@ -4,7 +4,6 @@
 #ifndef __OVIEW_DIALOG_INVENTORY_H__VER0__
 #define __OVIEW_DIALOG_INVENTORY_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 108h
   class oCViewDialogInventory : public zCViewDialog {
@@ -46,6 +45,5 @@ namespace Gothic_I_Classic {
     #include "oCViewDialogInventory.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OVIEW_DIALOG_INVENTORY_H__VER0__

@@ -4,7 +4,6 @@
 #ifndef __ZLENSFLARE_H__VER0__
 #define __ZLENSFLARE_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 34h
   class zCLensFlareFX : public zCObject {
@@ -66,6 +65,5 @@ namespace Gothic_I_Classic {
     #include "zCLensFlareFX.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZLENSFLARE_H__VER0__

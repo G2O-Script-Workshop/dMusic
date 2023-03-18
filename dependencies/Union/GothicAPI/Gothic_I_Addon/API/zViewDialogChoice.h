@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_DIALOG_CHOICE_H__VER1__
 #define __ZVIEW_DIALOG_CHOICE_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 10Ch
   class zCViewDialogChoice : public zCViewDialog {
@@ -49,6 +48,5 @@ namespace Gothic_I_Addon {
     #include "zCViewDialogChoice.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_DIALOG_CHOICE_H__VER1__

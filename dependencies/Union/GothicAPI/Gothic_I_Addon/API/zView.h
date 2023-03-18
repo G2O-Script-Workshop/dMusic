@@ -8,7 +8,6 @@
 #include "zRenderer.h"
 #include "zViewBase.h"
 
-namespace Gothic_I_Addon {
   const float VIEW_TIME_PER_CHAR = 100.0f;
   const int VIEW_GROUNDED        = 1<<3;
   const int VIEW_MODAL           = 1<<6;
@@ -256,6 +255,5 @@ namespace Gothic_I_Addon {
   inline int VirtualToPixelX( int x ) { return screen->nax( x ); }
   inline int VirtualToPixelY( int y ) { return screen->nay( y ); }
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_H__VER1__

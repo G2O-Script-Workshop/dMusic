@@ -6,7 +6,6 @@
 
 #include "zCCsProps.h"
 
-namespace Gothic_I_Addon {
   const int zLIB_STORE_ASCII = 1;
   const int zLIB_STORE_BIN   = 2;
   const int zLIB_LOAD_ASCII  = 1;
@@ -88,6 +87,5 @@ namespace Gothic_I_Addon {
     #include "zCCSManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZCCS_MANAGER_H__VER1__

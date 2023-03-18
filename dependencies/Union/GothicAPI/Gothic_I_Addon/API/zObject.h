@@ -4,7 +4,6 @@
 #ifndef __ZOBJECT_H__VER1__
 #define __ZOBJECT_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum zTClassFlags {
     zCLASS_FLAG_SHARED_OBJECTS = 1 << 0,
@@ -164,6 +163,5 @@ namespace Gothic_I_Addon {
     // user API
     #include "zCObjectFactory.inl"
   };
-} // namespace Gothic_I_Addon
 
 #endif // __ZOBJECT_H__VER1__

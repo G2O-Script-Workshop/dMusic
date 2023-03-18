@@ -8,7 +8,6 @@
 #include "zNet_Win32.h"
 #include "zGameInfo.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 3Ch
   class zCPlayerInfo {
@@ -67,6 +66,5 @@ namespace Gothic_I_Addon {
     #include "zCPlayerInfo.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZPLAYER_INFO_H__VER1__

@@ -4,7 +4,6 @@
 #ifndef __ZFILE3D_H__VER2__
 #define __ZFILE3D_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 01h
   class zCFile3DS {
@@ -59,6 +58,5 @@ namespace Gothic_II_Classic {
     #include "zCFileBIN.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZFILE3D_H__VER2__

@@ -4,7 +4,6 @@
 #ifndef __ZDISK__VDFS_H__VER0__
 #define __ZDISK__VDFS_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 4Ch
   struct TVDFFINDDATA {
@@ -70,6 +69,5 @@ namespace Gothic_I_Classic {
     #include "zFILE_VDFS.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZDISK__VDFS_H__VER0__

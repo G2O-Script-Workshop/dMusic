@@ -8,7 +8,6 @@
 #include "zRenderManager.h"
 #include "zSound.h"
 
-namespace Gothic_II_Addon {
   const int zSKY_NUM_LAYER       = 2;
   const int NUM_PLANETS          = 2;
   const int zEFFECT_BOX_SIDES    = 2500;
@@ -306,6 +305,5 @@ namespace Gothic_II_Addon {
     #include "zCOutdoorRainFX.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSKY__OUTDOOR_H__VER3__

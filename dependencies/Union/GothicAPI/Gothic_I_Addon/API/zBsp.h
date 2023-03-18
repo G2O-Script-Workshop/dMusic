@@ -4,7 +4,6 @@
 #ifndef __ZBSP_H__VER1__
 #define __ZBSP_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zBSP_LEAF_LIGHT_UNDEFINED = -99;
 
   enum zTBspPolyCont {
@@ -370,6 +369,5 @@ namespace Gothic_I_Addon {
     #include "zCBuildPortal.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZBSP_H__VER1__

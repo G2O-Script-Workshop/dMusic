@@ -4,7 +4,6 @@
 #ifndef __ZARCHIVER_H__VER1__
 #define __ZARCHIVER_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum zTArchiveMode {
     zARC_MODE_BINARY,
@@ -181,6 +180,5 @@ namespace Gothic_I_Addon {
     #include "zCArchiver.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZARCHIVER_H__VER1__

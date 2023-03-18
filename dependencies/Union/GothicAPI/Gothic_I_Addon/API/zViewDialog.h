@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_DIALOG_H__VER1__
 #define __ZVIEW_DIALOG_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof F8h
   class zCViewDialog : public zCViewPrint, public zCInputCallback {
@@ -33,6 +32,5 @@ namespace Gothic_I_Addon {
     #include "zCViewDialog.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_DIALOG_H__VER1__

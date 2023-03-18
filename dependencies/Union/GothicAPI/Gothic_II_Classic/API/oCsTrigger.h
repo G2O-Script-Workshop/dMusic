@@ -6,7 +6,6 @@
 
 #include "zVobMisc.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 168h
   class oCCSTrigger : public zCTrigger {
@@ -26,6 +25,5 @@ namespace Gothic_II_Classic {
     #include "oCCSTrigger.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OCS_TRIGGER_H__VER2__

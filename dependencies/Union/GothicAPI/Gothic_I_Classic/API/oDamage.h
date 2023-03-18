@@ -4,7 +4,6 @@
 #ifndef __ODAMAGE_H__VER0__
 #define __ODAMAGE_H__VER0__
 
-namespace Gothic_I_Classic {
 
   typedef enum oEIndexDamage {
     oEDamageIndex_Barrier,
@@ -41,6 +40,5 @@ namespace Gothic_I_Classic {
     oETypeWeapon_ForceDWORD = 0xffffffff
   } oEWeaponType;
 
-} // namespace Gothic_I_Classic
 
 #endif // __ODAMAGE_H__VER0__

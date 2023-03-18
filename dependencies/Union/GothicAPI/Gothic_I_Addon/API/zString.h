@@ -7,7 +7,6 @@
 #define USING_UNION_STRING_METHODS TRUE
 #define UNPROTECT_ZSTRING_METHODS  FALSE
 
-namespace Gothic_I_Addon {
 
   enum zTSTR_KIND {
     zSTR_ONLY,
@@ -133,7 +132,6 @@ namespace Gothic_I_Addon {
     return s1.operator !=( s2 );
   }
 
-} // namespace Gothic_I_Addon
 
 #undef USING_UNION_STRING_METHODS
 #undef UNPROTECT_ZSTRING_METHODS

@@ -9,7 +9,6 @@
 #include "zSound.h"
 #include "zParser.h"
 
-namespace Gothic_II_Classic {
   const int MAX_PROVIDER = 20;
 
   // sizeof 220h
@@ -328,6 +327,5 @@ namespace Gothic_II_Classic {
     #include "zCHandleManager.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZSND_MSS_H__VER2__

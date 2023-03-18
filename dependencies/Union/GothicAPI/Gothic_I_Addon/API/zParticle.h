@@ -4,7 +4,6 @@
 #ifndef __ZPARTICLE_H__VER1__
 #define __ZPARTICLE_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zPARTICLE_MAX_GLOBAL = 4096;
 
   enum zTPFX_EmitterShape {
@@ -290,6 +289,5 @@ namespace Gothic_I_Addon {
     #include "zCParticleFX.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZPARTICLE_H__VER1__

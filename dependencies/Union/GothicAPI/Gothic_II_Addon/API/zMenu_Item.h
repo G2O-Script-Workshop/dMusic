@@ -9,7 +9,6 @@
 #include "zVob.h"
 #include "zMathTools.h"
 
-namespace Gothic_II_Addon {
   const int MAX_ITEMS       = 150;
   const int MAX_EVENTS      = 10;
   const int MAX_SEL_ACTIONS = 5;
@@ -395,6 +394,5 @@ namespace Gothic_II_Addon {
     #include "zCMenuItemList.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMENU__ITEM_H__VER3__

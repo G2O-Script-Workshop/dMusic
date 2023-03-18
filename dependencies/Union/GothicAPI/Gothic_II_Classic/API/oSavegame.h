@@ -6,7 +6,6 @@
 
 #include "zBuffer.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof B4h
   class oCSavegameInfo : public zCObject {
@@ -79,6 +78,5 @@ namespace Gothic_II_Classic {
     #include "oCSavegameManager.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OSAVEGAME_H__VER2__

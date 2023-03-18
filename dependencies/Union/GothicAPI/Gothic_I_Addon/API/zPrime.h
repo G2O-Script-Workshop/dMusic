@@ -4,7 +4,6 @@
 #ifndef __ZPRIME_H__VER1__
 #define __ZPRIME_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 01h
   class zCPrime {
@@ -19,6 +18,5 @@ namespace Gothic_I_Addon {
     #include "zCPrime.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZPRIME_H__VER1__

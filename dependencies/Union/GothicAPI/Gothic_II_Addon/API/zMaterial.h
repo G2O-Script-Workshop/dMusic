@@ -8,7 +8,6 @@
 #include "zTexture.h"
 #include "zFft.h"
 
-namespace Gothic_II_Addon {
 
   enum zTMat_Group {
     zMAT_GROUP_UNDEF,
@@ -142,6 +141,5 @@ namespace Gothic_II_Addon {
     #include "zCMaterial.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMATERIAL_H__VER3__

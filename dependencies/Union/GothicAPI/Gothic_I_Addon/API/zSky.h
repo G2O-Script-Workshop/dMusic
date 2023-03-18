@@ -4,7 +4,6 @@
 #ifndef __ZSKY_H__VER1__
 #define __ZSKY_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zSKY_NUM_LAYER = 2;
   const int NUM_PLANETS    = 2;
 
@@ -353,6 +352,5 @@ namespace Gothic_I_Addon {
     #include "zCSkyControler_Outdoor.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZSKY_H__VER1__

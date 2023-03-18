@@ -6,7 +6,6 @@
 
 #include "zMemory_Base.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 04h
   class zCMallocGeneric : public zCMalloc {
@@ -27,6 +26,5 @@ namespace Gothic_I_Classic {
     #include "zCMallocGeneric.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMEMORY__GENERIC_H__VER0__

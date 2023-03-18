@@ -9,7 +9,6 @@
 #include "zParticle.h"
 #include "zParser.h"
 
-namespace Gothic_II_Addon {
   const int zSND_MAN_NUM_COLL_SND = 17;
 
   // sizeof 320h
@@ -111,6 +110,5 @@ namespace Gothic_II_Addon {
     #include "zCSoundManager.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSOUND_MAN_H__VER3__

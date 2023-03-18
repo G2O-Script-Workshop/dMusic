@@ -8,7 +8,6 @@
 #include "zAiPlayer.h"
 #include "zArchiver.h"
 
-namespace Gothic_II_Classic {
   const int WMODE_NONE          = 1;
   const int WMODE_CHOOSE        = 2;
   const int WMODE_STAND         = 3;
@@ -465,6 +464,5 @@ namespace Gothic_II_Classic {
     #include "oCAniCtrl_Human.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OANI_CTRL_H__VER2__

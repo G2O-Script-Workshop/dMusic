@@ -7,7 +7,6 @@
 #include "zAiCamera.h"
 #include "zAiCamera_Core.h"
 
-namespace Gothic_II_Addon {
   const float PLAYER_FUTURE_POS_ADVANCE_TIME_SEC = 0.5f;
   const float SHOULDERCAM_AZI                    = 0;
   const float SHOULDERCAM_ELEV                   = 85;
@@ -197,6 +196,5 @@ namespace Gothic_II_Addon {
     #include "zCMovementTracker.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZAI_CAMERA__MOVEMENT_H__VER3__

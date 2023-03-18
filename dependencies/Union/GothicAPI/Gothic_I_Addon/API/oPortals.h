@@ -4,7 +4,6 @@
 #ifndef __OPORTALS_H__VER1__
 #define __OPORTALS_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 2Ch
   class oCPortalRoom {
@@ -63,6 +62,5 @@ namespace Gothic_I_Addon {
     #include "oCPortalRoomManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OPORTALS_H__VER1__

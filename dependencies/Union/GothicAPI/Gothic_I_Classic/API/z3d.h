@@ -4,7 +4,6 @@
 #ifndef __Z3D_H__VER0__
 #define __Z3D_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zMAX_POLY_VERTS      = 21;
   const int zMAX_POLY_CLIP_VERTS = zMAX_POLY_VERTS * 2;
   const int zTCAM_POLY_NUM_VERT  = 4;
@@ -447,6 +446,5 @@ namespace Gothic_I_Classic {
     y = screen->any( (int)fPixelPosY );
   }
 
-} // namespace Gothic_I_Classic
 
 #endif // __Z3D_H__VER0__

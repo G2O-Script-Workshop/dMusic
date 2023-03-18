@@ -12,7 +12,6 @@
 #include "zCollisionObject.h"
 #include "zCollisionObjectMisc.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 118h
   class zCAIPlayer : public zCAIBase {
@@ -202,6 +201,5 @@ namespace Gothic_II_Addon {
     #include "zCAIPlayer.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZAI_PLAYER_H__VER3__

@@ -6,7 +6,6 @@
 
 #include "zSysInfo.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof A0h
   class oCSystemInfo : public zCSystemInfo {
@@ -39,6 +38,5 @@ namespace Gothic_II_Addon {
     #include "oCSystemInfo.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OSYS_INFO_H__VER3__

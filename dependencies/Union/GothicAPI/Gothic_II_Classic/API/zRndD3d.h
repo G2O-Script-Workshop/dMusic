@@ -4,7 +4,6 @@
 #ifndef __ZRND_D3D_H__VER2__
 #define __ZRND_D3D_H__VER2__
 
-namespace Gothic_II_Classic {
   const unsigned int MAXBUCKETS       = 256;
   const unsigned int MAXALPHAPOLYS    = 2048;
   const unsigned int MAXTEXTURESTAGES = 4;
@@ -543,6 +542,5 @@ namespace Gothic_II_Classic {
     #include "zCVertexBuffer_D3D.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZRND_D3D_H__VER2__

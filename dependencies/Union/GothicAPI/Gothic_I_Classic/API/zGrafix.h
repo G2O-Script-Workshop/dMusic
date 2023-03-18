@@ -4,7 +4,6 @@
 #ifndef __ZGRAFIX_H__VER0__
 #define __ZGRAFIX_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 18h
   struct TGfx_Gfx {
@@ -52,6 +51,5 @@ namespace Gothic_I_Classic {
     #include "zCGfx.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZGRAFIX_H__VER0__

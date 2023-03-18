@@ -8,7 +8,6 @@
 #include "zNetMessage.h"
 #include "zTools.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 54h
   class zCNetManager : public zCObject {
@@ -37,6 +36,5 @@ namespace Gothic_II_Addon {
     #include "zCNetManager.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZNET_MANAGER_H__VER3__

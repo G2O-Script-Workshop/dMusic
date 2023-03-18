@@ -10,7 +10,6 @@
 #include "zModel.h"
 #include "oNpc.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 44h
   class oCNpcMessage : public zCEventMessage {
@@ -562,6 +561,5 @@ namespace Gothic_II_Classic {
     #include "oCMsgRequest.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ONPC_MESSAGES_H__VER2__

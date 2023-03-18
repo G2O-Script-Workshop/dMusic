@@ -6,7 +6,6 @@
 
 #include "zViewBase.h"
 
-namespace Gothic_II_Addon {
   const int zCON_MAX_EVAL = 15;
 
   enum {
@@ -114,6 +113,5 @@ namespace Gothic_II_Addon {
     #include "zCConsole.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZCONSOLE_H__VER3__

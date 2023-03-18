@@ -4,7 +4,6 @@
 #ifndef __ZAI_PLAYER_H__VER2__
 #define __ZAI_PLAYER_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 118h
   class zCAIPlayer : public zCAIBase {
@@ -191,6 +190,5 @@ namespace Gothic_II_Classic {
     #include "zCAIPlayer.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZAI_PLAYER_H__VER2__

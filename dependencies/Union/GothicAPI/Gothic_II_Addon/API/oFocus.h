@@ -6,7 +6,6 @@
 
 #include "oNpc.h"
 
-namespace Gothic_II_Addon {
   const int FOCUS_MAX = 6;
 
   enum {
@@ -84,6 +83,5 @@ namespace Gothic_II_Addon {
     #include "oCNpcFocus.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OFOCUS_H__VER3__

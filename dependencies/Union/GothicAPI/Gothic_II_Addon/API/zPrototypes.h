@@ -4,7 +4,6 @@
 #ifndef __ZPROTOTYPES_H__VER3__
 #define __ZPROTOTYPES_H__VER3__
 
-namespace Gothic_II_Addon {
   class zCEngine;
   class zCMallocGeneric;
   struct zTEngineStats;
@@ -496,6 +495,5 @@ namespace Gothic_II_Addon {
   enum zTViewFX;
   enum zTViewAlign;
   enum zTVisualCamAlign;
-} // namespace Gothic_II_Addon
 
 #endif // __ZPROTOTYPES_H__VER3__

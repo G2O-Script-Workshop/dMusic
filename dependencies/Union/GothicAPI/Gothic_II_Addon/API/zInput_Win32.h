@@ -6,7 +6,6 @@
 
 #include "zInput.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 58h
   class zCInput_Win32 : public zCInput {
@@ -56,6 +55,5 @@ namespace Gothic_II_Addon {
     #include "zCInput_Win32.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZINPUT__WIN32_H__VER3__

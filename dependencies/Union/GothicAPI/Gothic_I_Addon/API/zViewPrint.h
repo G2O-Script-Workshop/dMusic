@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_PRINT_H__VER1__
 #define __ZVIEW_PRINT_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof ECh
   class zCViewPrint : public zCViewFX {
@@ -50,6 +49,5 @@ namespace Gothic_I_Addon {
     #include "zCViewPrint.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZVIEW_PRINT_H__VER1__

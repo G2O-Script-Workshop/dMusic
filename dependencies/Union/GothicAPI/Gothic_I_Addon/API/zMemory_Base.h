@@ -4,7 +4,6 @@
 #ifndef __ZMEMORY__BASE_H__VER1__
 #define __ZMEMORY__BASE_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum zTMallocDumpHeapMode {
     zMALLOC_SORT_BY_BYTES_PER_LINE,
@@ -75,6 +74,5 @@ namespace Gothic_I_Addon {
     #include "zCMalloc.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZMEMORY__BASE_H__VER1__

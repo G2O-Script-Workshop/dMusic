@@ -14,8 +14,6 @@
 #include "zViewPrint.h"
 #include "zView.h"
 
-namespace Gothic_II_Addon {
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZINC_VIEWS_H__VER3__

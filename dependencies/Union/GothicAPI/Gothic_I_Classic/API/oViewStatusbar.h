@@ -6,7 +6,6 @@
 
 #include "zViewStatusbar.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 158h
   class oCViewStatusBar : public zCViewStatusBar {
@@ -35,6 +34,5 @@ namespace Gothic_I_Classic {
     #include "oCViewStatusBar.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OVIEW_STATUSBAR_H__VER0__

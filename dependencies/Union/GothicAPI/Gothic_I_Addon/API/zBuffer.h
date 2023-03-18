@@ -4,7 +4,6 @@
 #ifndef __ZBUFFER_H__VER1__
 #define __ZBUFFER_H__VER1__
 
-namespace Gothic_I_Addon {
 
   enum zTBufferMode {
     READ,
@@ -99,6 +98,5 @@ namespace Gothic_I_Addon {
     #include "zCBuffer.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZBUFFER_H__VER1__

@@ -10,7 +10,6 @@
 #include "zScanDir.h"
 #include "zSound.h"
 
-namespace Gothic_II_Addon {
   const float zMDL_ANI_BLEND_IN_ZERO   = float_MAX;
   const float zMDL_ANI_BLEND_OUT_ZERO  =-float_MAX;
   const int zMDL_ANIEVENT_MAXSTRING    = 4;
@@ -750,6 +749,5 @@ namespace Gothic_II_Addon {
     #include "zCModelConvertFileHandler.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMODEL_H__VER3__

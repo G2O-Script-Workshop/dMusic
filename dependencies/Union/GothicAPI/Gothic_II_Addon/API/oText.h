@@ -6,7 +6,6 @@
 
 #include "zParser.h"
 
-namespace Gothic_II_Addon {
 
   class oCText {
   public:
@@ -62,6 +61,5 @@ namespace Gothic_II_Addon {
     #include "oCText.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OTEXT_H__VER3__

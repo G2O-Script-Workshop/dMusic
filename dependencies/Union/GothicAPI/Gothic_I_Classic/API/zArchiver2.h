@@ -4,7 +4,6 @@
 #ifndef __ZARCHIVER2_H__VER0__
 #define __ZARCHIVER2_H__VER0__
 
-namespace Gothic_I_Classic {
   const int READ_BUFFER_SIZE = 1024*8;
 
   enum zTArchiveTypeID {
@@ -155,6 +154,5 @@ namespace Gothic_I_Classic {
     #include "zCArchiverBinSafe.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZARCHIVER2_H__VER0__

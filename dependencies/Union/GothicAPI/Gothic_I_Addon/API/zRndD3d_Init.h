@@ -4,7 +4,6 @@
 #ifndef __ZRND_D3D__INIT_H__VER1__
 #define __ZRND_D3D__INIT_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof 32Ch
   struct dxDEVICE {
@@ -37,6 +36,5 @@ namespace Gothic_I_Addon {
     #include "zD3DTEX.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZRND_D3D__INIT_H__VER1__

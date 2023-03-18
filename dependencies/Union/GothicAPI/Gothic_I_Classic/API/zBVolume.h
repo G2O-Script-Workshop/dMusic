@@ -4,7 +4,6 @@
 #ifndef __ZBVOLUME_H__VER0__
 #define __ZBVOLUME_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 10h
   struct zTBSphere3D {
@@ -132,6 +131,5 @@ namespace Gothic_I_Classic {
     #include "zCOBBox3D.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZBVOLUME_H__VER0__

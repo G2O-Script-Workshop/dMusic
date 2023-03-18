@@ -6,7 +6,6 @@
 
 #include "zDisk.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 30h
   class zCScanDirFileHandler {
@@ -52,6 +51,5 @@ namespace Gothic_II_Classic {
     #include "zCScanDir.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZSCAN_DIR_H__VER2__

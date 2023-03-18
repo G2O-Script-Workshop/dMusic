@@ -6,7 +6,6 @@
 
 #include "zMenu.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 40h
   struct oSMenuKey {
@@ -43,6 +42,5 @@ namespace Gothic_II_Addon {
     #include "oCHelpScreen.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OMENU__HELP_H__VER3__

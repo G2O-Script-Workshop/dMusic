@@ -7,7 +7,6 @@
 #include "oMenu_Main.h"
 #include "oSavegame.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof CF0h
   class oCMenuSavegame : public oCMenu_Main {
@@ -46,6 +45,5 @@ namespace Gothic_II_Classic {
     #include "oCMenuSavegame.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OMENU_SAVEGAME_H__VER2__

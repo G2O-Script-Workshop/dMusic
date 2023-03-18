@@ -4,7 +4,6 @@
 #ifndef __ZFFT_H__VER2__
 #define __ZFFT_H__VER2__
 
-namespace Gothic_II_Classic {
 
   enum zTFFT {
     zTFFT_NONE,
@@ -86,6 +85,5 @@ namespace Gothic_II_Classic {
     #include "zCFFT.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZFFT_H__VER2__

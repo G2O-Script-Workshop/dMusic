@@ -7,7 +7,6 @@
 #include "zParser_Symbol.h"
 #include "zDisk.h"
 
-namespace Gothic_I_Classic {
   const int zPAR_INDEX_UNDEF = -1;
 
   // sizeof 30h
@@ -279,6 +278,5 @@ namespace Gothic_I_Classic {
     #include "zCParser.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZPARSER_H__VER0__

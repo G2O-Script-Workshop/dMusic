@@ -4,7 +4,6 @@
 #ifndef __ZVISUAL_H__VER2__
 #define __ZVISUAL_H__VER2__
 
-namespace Gothic_II_Classic {
 
   enum {
     zVISUAL_CAMALIGN_NONE,
@@ -277,6 +276,5 @@ namespace Gothic_II_Classic {
     #include "zCMesh.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZVISUAL_H__VER2__

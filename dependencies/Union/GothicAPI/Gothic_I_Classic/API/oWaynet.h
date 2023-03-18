@@ -6,7 +6,6 @@
 
 #include "zWaynet.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 7Ch
   class oCWaypoint : public zCWaypoint {
@@ -40,6 +39,5 @@ namespace Gothic_I_Classic {
     #include "oCWay.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OWAYNET_H__VER0__

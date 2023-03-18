@@ -9,7 +9,6 @@
 #include "zSession.h"
 #include "oSavegame.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 18Ch
   class oCGame : public zCSession {
@@ -221,6 +220,5 @@ namespace Gothic_II_Addon {
     #include "oCGame.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OGAME_H__VER3__

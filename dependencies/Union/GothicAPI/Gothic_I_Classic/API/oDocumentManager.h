@@ -4,7 +4,6 @@
 #ifndef __ODOCUMENT_MANAGER_H__VER0__
 #define __ODOCUMENT_MANAGER_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 0Ch
   class oCDocumentManager : public zCInputCallback {
@@ -42,6 +41,5 @@ namespace Gothic_I_Classic {
     #include "oCDocumentManager.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ODOCUMENT_MANAGER_H__VER0__

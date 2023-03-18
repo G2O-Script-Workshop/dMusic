@@ -6,7 +6,6 @@
 
 #include "zProgMesh.h"
 
-namespace Gothic_II_Classic {
   const float zMDL_ANI_BLEND_IN_ZERO   = float_MAX;
   const float zMDL_ANI_BLEND_OUT_ZERO  =-float_MAX;
   const int zMDL_ANIEVENT_MAXSTRING    = 4;
@@ -739,6 +738,5 @@ namespace Gothic_II_Classic {
     #include "zCModelConvertFileHandler.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZMODEL_H__VER2__

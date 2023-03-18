@@ -4,7 +4,6 @@
 #ifndef __ZGLOBAL_H__VER2__
 #define __ZGLOBAL_H__VER2__
 
-namespace Gothic_II_Classic {
   extern zCEngine*&             zengine;
   extern zCOption*&             zoptions;
   extern zCOption*&             zgameoptions;
@@ -138,6 +137,5 @@ namespace Gothic_II_Classic {
     extern HWND&      Window;   // Origin name: hWndApp;
   }
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZGLOBAL_H__VER2__

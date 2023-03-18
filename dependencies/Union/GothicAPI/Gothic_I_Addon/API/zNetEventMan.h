@@ -7,7 +7,6 @@
 #include "zEventMan.h"
 #include "zNetTypes.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 44h
   class zCNetEventManager : public zCEventManager {
@@ -34,6 +33,5 @@ namespace Gothic_I_Addon {
     #include "zCNetEventManager.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZNET_EVENT_MAN_H__VER1__

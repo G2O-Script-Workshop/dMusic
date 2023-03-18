@@ -8,7 +8,6 @@
 #include "zTexConvert.h"
 #include "z3d.h"
 
-namespace Gothic_I_Classic {
   const int GR_LOD_0          = GR_LOD_1+1;
   const float NEAREST_OOW     = 1.0F;
   const float MAX_ALPHA       = 255.0F;
@@ -110,6 +109,5 @@ namespace Gothic_I_Classic {
     #include "zCRnd_Glide.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRND_GLIDE_H__VER0__

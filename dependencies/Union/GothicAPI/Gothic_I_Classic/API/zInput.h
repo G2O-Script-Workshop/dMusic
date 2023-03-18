@@ -6,7 +6,6 @@
 
 #include "zInput_Const.h"
 
-namespace Gothic_I_Classic {
 
   enum zTInputDevice {
     zINPUT_UNDEF,
@@ -150,6 +149,5 @@ namespace Gothic_I_Classic {
     #include "zCInput.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZINPUT_H__VER0__

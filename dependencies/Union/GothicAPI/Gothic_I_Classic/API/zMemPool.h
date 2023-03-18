@@ -4,7 +4,6 @@
 #ifndef __ZMEM_POOL_H__VER0__
 #define __ZMEM_POOL_H__VER0__
 
-namespace Gothic_I_Classic {
 
   typedef enum {
     zVOLATILE_OVERFLOW_FORBID,
@@ -88,6 +87,5 @@ namespace Gothic_I_Classic {
     #include "zCMemPoolBase.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMEM_POOL_H__VER0__

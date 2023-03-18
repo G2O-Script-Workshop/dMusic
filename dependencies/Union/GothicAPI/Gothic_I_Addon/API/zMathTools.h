@@ -4,7 +4,6 @@
 #ifndef __ZMATH_TOOLS_H__VER1__
 #define __ZMATH_TOOLS_H__VER1__
 
-namespace Gothic_I_Addon {
   const int MAX_SAMPLES_POS = 50;
   const int MAX_SAMPLES_ROT = 100;
 
@@ -72,6 +71,5 @@ namespace Gothic_I_Addon {
     #include "zCPose.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZMATH_TOOLS_H__VER1__

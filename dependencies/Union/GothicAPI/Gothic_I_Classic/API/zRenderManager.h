@@ -4,7 +4,6 @@
 #ifndef __ZRENDER_MANAGER_H__VER0__
 #define __ZRENDER_MANAGER_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zRENDERMAN_NUM_SHADER        = 64;
   const int zRENDERMAN_NUM_SHADER_STAGES = zRENDERMAN_NUM_SHADER * 4;
   const int MAX_STAGES                   = 4;
@@ -207,6 +206,5 @@ namespace Gothic_I_Classic {
     #include "zCMapDetailTexture.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRENDER_MANAGER_H__VER0__

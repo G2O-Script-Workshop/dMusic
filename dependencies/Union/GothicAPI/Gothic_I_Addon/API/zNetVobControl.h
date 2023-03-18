@@ -6,7 +6,6 @@
 
 #include "zNetTypes.h"
 
-namespace Gothic_I_Addon {
   const int zNET_VOBCTRL_TOLERANCE = 40000;
 
   // sizeof 30h
@@ -41,6 +40,5 @@ namespace Gothic_I_Addon {
     #include "zCNetVobControl.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZNET_VOB_CONTROL_H__VER1__

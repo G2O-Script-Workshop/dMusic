@@ -4,7 +4,6 @@
 #ifndef __Z3D_H__VER1__
 #define __Z3D_H__VER1__
 
-namespace Gothic_I_Addon {
   const int zMAX_POLY_VERTS      = 21;
   const int zMAX_POLY_CLIP_VERTS = zMAX_POLY_VERTS * 2;
   const int zTCAM_POLY_NUM_VERT  = 4;
@@ -449,6 +448,5 @@ namespace Gothic_I_Addon {
     y = screen->any( (int)fPixelPosY );
   }
 
-} // namespace Gothic_I_Addon
 
 #endif // __Z3D_H__VER1__

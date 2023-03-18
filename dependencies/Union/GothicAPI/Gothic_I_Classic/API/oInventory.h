@@ -8,7 +8,6 @@
 #include "zView.h"
 #include "zArchiver.h"
 
-namespace Gothic_I_Classic {
    const int INV_MAX_NUM_ITEMS = 6;
 
   enum {
@@ -233,6 +232,5 @@ namespace Gothic_I_Classic {
     #include "oCNpcInventory.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OINVENTORY_H__VER0__

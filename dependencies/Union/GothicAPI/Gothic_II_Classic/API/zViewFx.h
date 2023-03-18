@@ -4,7 +4,6 @@
 #ifndef __ZVIEW_FX_H__VER2__
 #define __ZVIEW_FX_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof ACh
   class zCViewFX : public zCViewDraw {
@@ -58,6 +57,5 @@ namespace Gothic_II_Classic {
     #include "zCViewFX.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZVIEW_FX_H__VER2__

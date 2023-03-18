@@ -8,7 +8,6 @@
 #include "zString.h"
 #include "zDisk.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 18h
   struct TGfx_Gfx {
@@ -56,6 +55,5 @@ namespace Gothic_II_Classic {
     #include "zCGfx.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZGRAFIX_H__VER2__

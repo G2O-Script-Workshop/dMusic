@@ -4,7 +4,6 @@
 #ifndef __ZVOB_IDENTIFIER_H__VER2__
 #define __ZVOB_IDENTIFIER_H__VER2__
 
-namespace Gothic_II_Classic {
   const unsigned long zVOB_ID_UNDEFINED = 0;
 
   // sizeof 04h
@@ -18,6 +17,5 @@ namespace Gothic_II_Classic {
     #include "zCVobIdentifier.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZVOB_IDENTIFIER_H__VER2__

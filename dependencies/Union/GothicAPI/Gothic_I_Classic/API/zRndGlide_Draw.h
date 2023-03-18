@@ -4,7 +4,6 @@
 #ifndef __ZRND_GLIDE__DRAW_H__VER0__
 #define __ZRND_GLIDE__DRAW_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 420h
   struct zSRndGlide_AlphaPoly {
@@ -33,6 +32,5 @@ namespace Gothic_I_Classic {
     #include "zSRndGlide_AlphaPoly.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZRND_GLIDE__DRAW_H__VER0__

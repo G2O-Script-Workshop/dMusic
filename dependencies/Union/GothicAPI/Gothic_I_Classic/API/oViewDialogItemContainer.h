@@ -4,7 +4,6 @@
 #ifndef __OVIEW_DIALOG_ITEM_CONTAINER_H__VER0__
 #define __OVIEW_DIALOG_ITEM_CONTAINER_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 110h
   class oCViewDialogItemContainer : public zCViewDialog {
@@ -51,6 +50,5 @@ namespace Gothic_I_Classic {
     #include "oCViewDialogItemContainer.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OVIEW_DIALOG_ITEM_CONTAINER_H__VER0__

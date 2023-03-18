@@ -9,7 +9,6 @@
 #include "oRoutine.h"
 #include "oMusicZone.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 4Ch
   class oCAICamera : public zCAIBase {
@@ -136,6 +135,5 @@ namespace Gothic_II_Classic {
     #include "oCAIHuman_Stand.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OAI_HUMAN_H__VER2__

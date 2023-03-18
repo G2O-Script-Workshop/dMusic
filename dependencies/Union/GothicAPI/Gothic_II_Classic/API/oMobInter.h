@@ -9,7 +9,6 @@
 #include "oNpc.h"
 #include "zModel.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 5Ch
   struct TMobOptPos {
@@ -461,6 +460,5 @@ namespace Gothic_II_Classic {
     #include "oCMobMsg.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OMOB_INTER_H__VER2__

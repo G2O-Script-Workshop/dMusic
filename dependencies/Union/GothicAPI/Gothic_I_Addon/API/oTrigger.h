@@ -8,7 +8,6 @@
 #include "zVobMisc.h"
 #include "zArchiver.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 170h
   class oCTriggerChangeLevel : public zCTrigger {
@@ -74,6 +73,5 @@ namespace Gothic_I_Addon {
     #include "oCObjectGenerator.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OTRIGGER_H__VER1__

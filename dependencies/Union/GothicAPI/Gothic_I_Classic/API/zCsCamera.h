@@ -10,7 +10,6 @@
 #include "zAiCamera.h"
 #include "zAiCamera_Movement.h"
 
-namespace Gothic_I_Classic {
   const float zCS_KEYTIME_UNDEF       = -1;
   const float zCSCAM_DEFAULT_DURATION = 10;
 
@@ -276,6 +275,5 @@ namespace Gothic_I_Classic {
     #include "zCCSCamera.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZCS_CAMERA_H__VER0__

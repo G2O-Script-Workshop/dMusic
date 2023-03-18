@@ -4,7 +4,6 @@
 #ifndef __ZSOUND_H__VER0__
 #define __ZSOUND_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zSND_FREQ_DEFAULT         = -1;
   const float zSND_PAN_DEFAULT        = -2;
   const float zSND_PAN_LEFT           =-1.0F;
@@ -152,6 +151,5 @@ namespace Gothic_I_Classic {
     #include "zCSoundSystemDummy.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZSOUND_H__VER0__

@@ -4,7 +4,6 @@
 #ifndef __ZTYPES_H__VER3__
 #define __ZTYPES_H__VER3__
 
-namespace Gothic_II_Addon {
 
   typedef float               zREAL;
   typedef int                 zTFrameCtr;
@@ -383,6 +382,5 @@ namespace Gothic_II_Addon {
     TD_zCRoute                             = 0x008BCB74,
     TD_zCVobStartpoint                     = 0x008BCCDC
   };
-} // namespace Gothic_II_Addon
 
 #endif // __ZTYPES_H__VER3__

@@ -4,7 +4,6 @@
 #ifndef __ZWORLD_H__VER0__
 #define __ZWORLD_H__VER0__
 
-namespace Gothic_I_Classic {
   const int zNUM_VOB_HASH = 2048;
 
   enum zTTraceRayFlags {
@@ -342,6 +341,5 @@ namespace Gothic_I_Classic {
     #include "zCWorld.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZWORLD_H__VER0__

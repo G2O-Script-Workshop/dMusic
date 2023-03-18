@@ -6,7 +6,6 @@
 
 #include "zAlgebra.h"
 
-namespace Gothic_II_Addon {
   const float float_MIN = -FLT_MAX;
   const float float_MAX =  FLT_MAX;
 
@@ -100,6 +99,5 @@ namespace Gothic_II_Addon {
     #include "zTPlane.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZTYPES3D_H__VER3__

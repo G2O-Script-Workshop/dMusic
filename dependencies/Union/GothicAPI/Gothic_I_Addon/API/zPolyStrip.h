@@ -4,7 +4,6 @@
 #ifndef __ZPOLY_STRIP_H__VER1__
 #define __ZPOLY_STRIP_H__VER1__
 
-namespace Gothic_I_Addon {
 
   // sizeof A8h
   class zCPolyStrip : public zCVisual {
@@ -211,6 +210,5 @@ namespace Gothic_I_Addon {
     #include "zCQuadMark.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZPOLY_STRIP_H__VER1__

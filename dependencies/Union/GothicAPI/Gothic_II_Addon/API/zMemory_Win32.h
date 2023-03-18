@@ -6,7 +6,6 @@
 
 #include "zMemory_Base.h"
 
-namespace Gothic_II_Addon {
 
   // sizeof 4D0h
   class zCMallocWin32Debug : public zCMalloc {
@@ -28,6 +27,5 @@ namespace Gothic_II_Addon {
     #include "zCMallocWin32Debug.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZMEMORY__WIN32_H__VER3__

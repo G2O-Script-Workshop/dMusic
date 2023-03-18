@@ -6,7 +6,6 @@
 
 #include "zTypes.h"
 
-namespace Gothic_I_Addon {
 
   class zCSparseArrayManDat {
   public:
@@ -263,6 +262,5 @@ namespace Gothic_I_Addon {
     }
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZSPARSE_ARRAY_H__VER1__

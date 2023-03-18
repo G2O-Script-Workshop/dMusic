@@ -4,7 +4,6 @@
 #ifndef __ZVERTEX_BUFFER_H__VER3__
 #define __ZVERTEX_BUFFER_H__VER3__
 
-namespace Gothic_II_Addon {
 
   enum zTVBufferPrimitiveType {
     zVBUFFER_PT_TRIANGLELIST,
@@ -197,6 +196,5 @@ namespace Gothic_II_Addon {
     #include "zCVertexBufferManager.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZVERTEX_BUFFER_H__VER3__

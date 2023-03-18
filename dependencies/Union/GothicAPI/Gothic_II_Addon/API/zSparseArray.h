@@ -4,7 +4,6 @@
 #ifndef __ZSPARSE_ARRAY_H__VER3__
 #define __ZSPARSE_ARRAY_H__VER3__
 
-namespace Gothic_II_Addon {
 
   class zCSparseArrayManDat {
   public:
@@ -268,6 +267,5 @@ namespace Gothic_II_Addon {
     #include "zCCacheData.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZSPARSE_ARRAY_H__VER3__

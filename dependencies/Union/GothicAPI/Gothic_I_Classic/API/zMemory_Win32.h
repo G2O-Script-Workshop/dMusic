@@ -4,7 +4,6 @@
 #ifndef __ZMEMORY__WIN32_H__VER0__
 #define __ZMEMORY__WIN32_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 4D0h
   class zCMallocWin32Debug : public zCMalloc {
@@ -26,6 +25,5 @@ namespace Gothic_I_Classic {
     #include "zCMallocWin32Debug.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZMEMORY__WIN32_H__VER0__

@@ -5,7 +5,6 @@
 #define __ZMACRO_H__VER3__
 #include <crtversion.h>
 
-namespace Gothic_II_Addon {
 #define zRELEASE( obj ) { (obj)->Release(); obj = NULL; }
 #define zADDREF( obj )  (obj)->AddRef()
 #define zNEW( obj ) new obj
@@ -204,6 +203,5 @@ namespace Gothic_II_Addon {
 struct zIInheritableInterfaceObject {};
 #define zDefineInheritableCtor(className) className(InheritableInterfaceObject) 
 #define zCtor(baseClassName) baseClassName(zIInheritableInterfaceObject())
-} // namespace Gothic_II_Addon
 
 #endif // __ZMACRO_H__VER3__

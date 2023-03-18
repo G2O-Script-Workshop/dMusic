@@ -8,7 +8,6 @@
 #include "zVob.h"
 #include "zNet_Win32.h"
 
-namespace Gothic_I_Addon {
   const int zMAX_PLAYER          = 20;
   const int zPCK_GAMEINFO_INFO   = 1;
   const int zPCK_GAMEINFO_PLAYER = 2;
@@ -42,6 +41,5 @@ namespace Gothic_I_Addon {
     #include "zCGameInfo.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __ZGAME_INFO_H__VER1__

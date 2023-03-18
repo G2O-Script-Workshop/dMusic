@@ -9,7 +9,6 @@
 #include "zVobMisc.h"
 #include "zSoundMan.h"
 
-namespace Gothic_I_Addon {
 
   enum oTSndMaterial {
     SND_MAT_WOOD,
@@ -78,6 +77,5 @@ namespace Gothic_I_Addon {
     #include "oCTouchDamage.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OVOB_H__VER1__

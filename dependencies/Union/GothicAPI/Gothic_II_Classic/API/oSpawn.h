@@ -6,7 +6,6 @@
 
 #include "zVob.h"
 
-namespace Gothic_II_Classic {
 
   // sizeof 24h
   class oCSpawnManager {
@@ -62,6 +61,5 @@ namespace Gothic_II_Classic {
     #include "oCSpawnManager.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __OSPAWN_H__VER2__

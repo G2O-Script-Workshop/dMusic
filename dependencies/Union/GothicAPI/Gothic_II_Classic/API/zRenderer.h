@@ -4,7 +4,6 @@
 #ifndef __ZRENDERER_H__VER2__
 #define __ZRENDERER_H__VER2__
 
-namespace Gothic_II_Classic {
   const int DEFAULT_LEVEL_ZBIAS     = 0;
   const int DEFAULT_VOB_ZBIAS       = 1;
   const int zRND_FOG_FALLOFF_LINEAR = 0;
@@ -469,6 +468,5 @@ namespace Gothic_II_Classic {
     #include "zCRenderer.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZRENDERER_H__VER2__

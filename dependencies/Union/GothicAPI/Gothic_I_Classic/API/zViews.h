@@ -6,7 +6,6 @@
 
 #include "zView.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof FCh
   class zCViewWindow : public zCView {
@@ -23,6 +22,5 @@ namespace Gothic_I_Classic {
     #include "zCViewWindow.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZVIEWS_H__VER0__

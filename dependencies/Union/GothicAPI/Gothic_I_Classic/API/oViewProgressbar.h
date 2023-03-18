@@ -6,7 +6,6 @@
 
 #include "zViewProgressbar.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 138h
   class oCViewGothicProgressBar : public zCViewProgressBar {
@@ -24,6 +23,5 @@ namespace Gothic_I_Classic {
     #include "oCViewGothicProgressBar.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OVIEW_PROGRESSBAR_H__VER0__

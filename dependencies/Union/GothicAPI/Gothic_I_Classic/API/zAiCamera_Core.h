@@ -6,7 +6,6 @@
 
 #include "zKbSplines.h"
 
-namespace Gothic_I_Classic {
   const int AZI   = 0;
   const int ELEV  = 1;
   const int RANGE = 2;
@@ -299,6 +298,5 @@ namespace Gothic_I_Classic {
     #include "zCPathSearch.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZAI_CAMERA__CORE_H__VER0__

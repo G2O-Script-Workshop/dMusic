@@ -4,7 +4,6 @@
 #ifndef __ZVOB_H__VER0__
 #define __ZVOB_H__VER0__
 
-namespace Gothic_I_Classic {
 
   enum zTVobType {
     zVOB_TYPE_NORMAL,
@@ -542,6 +541,5 @@ namespace Gothic_I_Classic {
     #include "zCVobLevelCompo.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZVOB_H__VER0__

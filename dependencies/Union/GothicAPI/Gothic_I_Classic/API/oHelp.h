@@ -4,7 +4,6 @@
 #ifndef __OHELP_H__VER0__
 #define __OHELP_H__VER0__
 
-namespace Gothic_I_Classic {
 
   // sizeof 5Ch
   class oCHelp {
@@ -33,6 +32,5 @@ namespace Gothic_I_Classic {
     #include "oCHelp.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OHELP_H__VER0__

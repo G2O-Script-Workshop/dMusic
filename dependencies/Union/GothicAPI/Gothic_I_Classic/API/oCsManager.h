@@ -6,7 +6,6 @@
 
 #include "zCCsManager.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 70h
   class oCCSManager : public zCCSManager {
@@ -27,6 +26,5 @@ namespace Gothic_I_Classic {
     #include "oCCSManager.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __OCS_MANAGER_H__VER0__

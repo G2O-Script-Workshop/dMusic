@@ -4,7 +4,6 @@
 #ifndef __ONEWS_H__VER3__
 #define __ONEWS_H__VER3__
 
-namespace Gothic_II_Addon {
   const int MAX_ENTRY = 20;
 
   typedef enum oENewsSpreadType {
@@ -99,6 +98,5 @@ namespace Gothic_II_Addon {
     #include "oCNewsManager.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ONEWS_H__VER3__

@@ -9,7 +9,6 @@
 #include "zVob.h"
 #include "zZone.h"
 
-namespace Gothic_II_Addon {
   const int zNUM_VOB_HASH = 2048;
 
   enum zTTraceRayFlags {
@@ -360,6 +359,5 @@ namespace Gothic_II_Addon {
     #include "zCWorld.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZWORLD_H__VER3__

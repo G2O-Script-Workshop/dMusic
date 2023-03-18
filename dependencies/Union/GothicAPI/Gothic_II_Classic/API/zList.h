@@ -7,7 +7,6 @@
 #include "zContainer.h"
 #include "zObject.h"
 
-namespace Gothic_II_Classic {
 
   template <class T>
   class zCPQueue {
@@ -641,6 +640,5 @@ namespace Gothic_II_Classic {
     }
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZLIST_H__VER2__

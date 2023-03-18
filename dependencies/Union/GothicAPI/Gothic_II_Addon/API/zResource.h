@@ -6,7 +6,6 @@
 
 #include "zThread.h"
 
-namespace Gothic_II_Addon {
   const int zMAX_CACHE_IN_PRIO = 65535;
 
   enum zTResourceCacheState {
@@ -126,6 +125,5 @@ namespace Gothic_II_Addon {
     #include "zCResource.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZRESOURCE_H__VER3__

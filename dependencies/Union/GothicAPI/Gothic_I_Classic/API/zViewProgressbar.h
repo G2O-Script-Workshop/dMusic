@@ -6,7 +6,6 @@
 
 #include "zView.h"
 
-namespace Gothic_I_Classic {
 
   // sizeof 0Ch
   struct zTProgressRange {
@@ -49,6 +48,5 @@ namespace Gothic_I_Classic {
     #include "zCViewProgressBar.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZVIEW_PROGRESSBAR_H__VER0__

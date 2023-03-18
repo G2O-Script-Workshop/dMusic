@@ -6,7 +6,6 @@
 
 #include "zVob.h"
 
-namespace Gothic_I_Addon {
 
   // sizeof 38h
   class oCParticleControl {
@@ -43,6 +42,5 @@ namespace Gothic_I_Addon {
     #include "oCParticleControl.inl"
   };
 
-} // namespace Gothic_I_Addon
 
 #endif // __OPARTICLE_CONTROL_H__VER1__

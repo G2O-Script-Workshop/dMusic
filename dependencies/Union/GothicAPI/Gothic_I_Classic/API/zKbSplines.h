@@ -8,7 +8,6 @@
 #include "zView.h"
 #include "zMathTools.h"
 
-namespace Gothic_I_Classic {
 
   enum zTSplLerpMode {
     zTSPL_LERP_UNDEF,
@@ -97,6 +96,5 @@ namespace Gothic_I_Classic {
     #include "zCKBSpline.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZKB_SPLINES_H__VER0__

@@ -4,7 +4,6 @@
 #ifndef __OSPELL_H__VER3__
 #define __OSPELL_H__VER3__
 
-namespace Gothic_II_Addon {
   const int SPL_PALLIGHT             = 0;
   const int SPL_PALLIGHTHEAL         = 1;
   const int SPL_PALHOLYBOLT          = 2;
@@ -238,6 +237,5 @@ namespace Gothic_II_Addon {
     #include "oCSpell.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __OSPELL_H__VER3__

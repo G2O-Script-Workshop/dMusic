@@ -4,7 +4,6 @@
 #ifndef __ZSPY_TYPES_H__VER2__
 #define __ZSPY_TYPES_H__VER2__
 
-namespace Gothic_II_Classic {
 
   // sizeof 18Ch
   struct zTErrorMessage {
@@ -21,6 +20,5 @@ namespace Gothic_II_Classic {
     #include "zTErrorMessage.inl"
   };
 
-} // namespace Gothic_II_Classic
 
 #endif // __ZSPY_TYPES_H__VER2__

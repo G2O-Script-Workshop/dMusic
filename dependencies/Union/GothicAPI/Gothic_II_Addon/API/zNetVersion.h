@@ -4,7 +4,6 @@
 #ifndef __ZNET_VERSION_H__VER3__
 #define __ZNET_VERSION_H__VER3__
 
-namespace Gothic_II_Addon {
   const short zNET_VERSION = 1;
 
   // sizeof 0Ch
@@ -27,6 +26,5 @@ namespace Gothic_II_Addon {
     #include "zCNetVersion.inl"
   };
 
-} // namespace Gothic_II_Addon
 
 #endif // __ZNET_VERSION_H__VER3__

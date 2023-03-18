@@ -4,7 +4,6 @@
 #ifndef __ZERROR_H__VER0__
 #define __ZERROR_H__VER0__
 
-namespace Gothic_I_Classic {
 
   enum zERROR_TYPE {
     zERR_TYPE_OK,
@@ -86,6 +85,5 @@ namespace Gothic_I_Classic {
     #include "zERROR.inl"
   };
 
-} // namespace Gothic_I_Classic
 
 #endif // __ZERROR_H__VER0__

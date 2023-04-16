@@ -117,7 +117,7 @@ public:
 
 	operator T()
 	{
-		return *(T)(address);
+		return *(T*)(&address);
 	}
 };
 

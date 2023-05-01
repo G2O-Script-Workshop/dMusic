@@ -252,7 +252,6 @@
           }
         }
       }
-      return FALSE;
     }
 
     void DeleteListDatas() {

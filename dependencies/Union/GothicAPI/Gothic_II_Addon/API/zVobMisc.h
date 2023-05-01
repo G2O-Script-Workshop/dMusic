@@ -73,7 +73,15 @@
       unsigned char respondToNPC     : 1; // sizeof 01h    offset bit
     };
 
+    // sizeof 01h
+    struct zCTriggerDummy1 {
+        unsigned char startEnabled  : 1;
+        unsigned char isEnabled     : 1;
+        unsigned char sendUntrigger : 1;
+    };
+
     zCTriggerDummy0 filterFlags; // sizeof 01h    offset 134h
+    zCTriggerDummy1 flags;       // sizeof 01h    offset 135h
     zSTRING respondToVobName;    // sizeof 14h    offset 138h
     short numCanBeActivated;     // sizeof 02h    offset 14Ch
     float retriggerWaitSec;      // sizeof 04h    offset 150h

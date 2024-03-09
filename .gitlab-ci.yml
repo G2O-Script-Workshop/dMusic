@@ -18,11 +18,11 @@ stages:
   script:
     - cmake . --preset ${SYSTEM}-${ARCHITECTURE}-Release
     - cmake --build --preset ${SYSTEM}-${ARCHITECTURE}-Release
-    - cp out/build/${SYSTEM}-${ARCHITECTURE}-Release/${PROJECT_NAME}.${ARCHITECTURE}${SHARED_LIB_SUFFIX} ./
+    - cp out/build/${SYSTEM}-${ARCHITECTURE}-Release/${PROJECT_NAME}.${SHARED_LIB_SUFFIX} ./
   artifacts:
     name: ${PROJECT_NAME}
     paths:
-      - ${PROJECT_NAME}.${ARCHITECTURE}${SHARED_LIB_SUFFIX}
+      - ${PROJECT_NAME}.${SHARED_LIB_SUFFIX}
     expire_in: never
     reports:
         dotenv: job.env

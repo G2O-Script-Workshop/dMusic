@@ -6,7 +6,7 @@ using namespace Gothic_II_Addon;
 
 /* squirreldoc (func)
 *
-* This is an entry point for the module.
+* This is is an example hook for oCGame::Render method.
 *
 * @version	0.1
 * @side		client

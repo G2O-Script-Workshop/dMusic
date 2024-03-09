@@ -1,35 +1,24 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.21)
 
 project(union-template)
 
-option(INSTALL_AFTER_BUILD "Run cmake --install separately for every target after each build. By default this option is set to OFF" OFF)
-
-set(GAME_PATH "" CACHE PATH "This option specifies the game location. It's only used for the installation step.")
-set(SERVER_PATH "" CACHE PATH "This option specifies the server location. It's only used for the installation step.")
-
 file(GLOB SRC
-	"src/api/squirrel_api.h"
-	"src/api/module_api.h"
-	"src/api/module_api.cpp"
-
 	"src/sqmain.cpp"
 )
 
-add_library(union-template SHARED ${SRC})
+add_library(${PROJECT_NAME} SHARED ${SRC})
 
-target_compile_definitions(union-template
+target_compile_definitions(${PROJECT_NAME}
 	PRIVATE
 		SCRAT_EXPORT
 )
 
-target_precompile_headers(union-template
+target_precompile_headers(${PROJECT_NAME}
 	PRIVATE
 		<GothicAPI/zGothicAPI.h>
-		"src/api/module_api.h"
-		"src/api/squirrel_api.h"
 )
 
-target_include_directories(union-template
+target_include_directories(${PROJECT_NAME}
 	INTERFACE
 		"include/"
 	PRIVATE
@@ -39,39 +28,9 @@ target_include_directories(union-template
 add_subdirectory(dependencies)
 
 if(DEFINED OUT_FILE_SUFFIX)
-	set_target_properties(union-template
+	set_target_properties(${PROJECT_NAME}
 			PROPERTIES 
 				PREFIX ""
 				SUFFIX ".${OUT_FILE_SUFFIX}${CMAKE_SHARED_LIBRARY_SUFFIX}"
 	)
-endif()
-
-if (NOT ${GAME_PATH} STREQUAL "")
-	install(TARGETS union-template
-			RUNTIME
-			  DESTINATION ${GAME_PATH}
-			  COMPONENT "clientModule"
-	)
-
-	if(INSTALL_AFTER_BUILD)
-		add_custom_command(TARGET union-template 
-			POST_BUILD
-				COMMAND ${CMAKE_COMMAND} --install ${CMAKE_CURRENT_BINARY_DIR} --component "clientModule"
-		)
-	endif()
-endif()
-
-if (NOT ${SERVER_PATH} STREQUAL "")
-	install(TARGETS union-template
-			RUNTIME
-			  DESTINATION ${SERVER_PATH}
-			  COMPONENT "serverModule"
-	)
-
-	if(INSTALL_AFTER_BUILD)
-		add_custom_command(TARGET union-template 
-			POST_BUILD
-				COMMAND ${CMAKE_COMMAND} --install ${CMAKE_CURRENT_BINARY_DIR} --component "serverModule"
-		)
-	endif()
 endif()

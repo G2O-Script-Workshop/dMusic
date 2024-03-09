@@ -18,9 +18,6 @@
 			"architecture": {
 				"value": "x86",
 				"strategy": "external"
-			},
-			"cacheVariables": {
-				"OUT_FILE_SUFFIX": "x86"
 			}
 		},
 		{

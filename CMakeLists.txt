@@ -28,11 +28,3 @@ target_include_directories(${PROJECT_NAME}
 )
 
 add_subdirectory(dependencies)
-
-if(DEFINED OUT_FILE_SUFFIX)
-	set_target_properties(${PROJECT_NAME}
-			PROPERTIES 
-				PREFIX ""
-				SUFFIX ".${OUT_FILE_SUFFIX}${CMAKE_SHARED_LIBRARY_SUFFIX}"
-	)
-endif()

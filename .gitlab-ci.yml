@@ -1,44 +1,120 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+  PROJECT_NAME: ${CI_PROJECT_NAME}
+  VERSION: "0.1"
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+
 stages:
  - build
  - release
-
-build:windows:
+ 
+.build:
   stage: build
-  tags:
-  - windows
   when: manual
   script:
-    - choco install -y cmake --installargs '"ADD_CMAKE_TO_PATH=System"'
-    - $env:Path += ";C:\Program Files\CMake\bin"
-    - cmake . -DCMAKE_TOOLCHAIN_FILE="windows-x86.cmake"
-    - cmake --build . --config Release
-    - cp Release/$CI_PROJECT_NAME.dll ./
-
-  after_script:
-    - $env = "windows_x86_JOB_ID=$CI_JOB_ID"
-    - Add-Content -Path job.env -Value $env
+    - cmake . --preset ${SYSTEM}-${ARCHITECTURE}-Release
+    - cmake --build --preset ${SYSTEM}-${ARCHITECTURE}-Release
+    - cp out/build/${SYSTEM}-${ARCHITECTURE}-Release/${PROJECT_NAME}.${ARCHITECTURE}${SHARED_LIB_SUFFIX} ./
   artifacts:
-    name: $CI_PROJECT_NAME
+    name: ${PROJECT_NAME}
     paths:
-    - $CI_PROJECT_NAME.dll
+      - ${PROJECT_NAME}.${ARCHITECTURE}${SHARED_LIB_SUFFIX}
+    expire_in: never
+    reports:
+        dotenv: job.env
+
+build:windows:
+  extends: .build
+  tags: [windows]
+  variables:
+    SYSTEM: "Windows"
+    SHARED_LIB_SUFFIX: ".dll"
+  before_script: |
+    function loadenv($bat_file)
+    {
+      $env_file = New-TemporaryFile
+      cmd /c " `"$bat_file`" $args && set > `"$env_file`" "
+
+      foreach($line in Get-Content "$env_file") 
+      {
+        if($line -match "^(.*?)=(.*)$")
+        {
+          Set-Content "env:\$($matches[1])" $matches[2]
+        }
+      }
+
+      Remove-Item "$env_file"
+    }
+
+    loadenv "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x86
+  after_script:
+    - Add-Content -Path job.env -Value "Windows_x86_job_id=${CI_JOB_ID}"
+
+build:docs:
+  stage: build
+  image: "python:3.9-alpine"
+  when: manual
+  before_script:
+    - apk add git
+    - git clone https://gitlab.com/GothicMultiplayerTeam/docsgenerator.git
+  script:
+    - pip install -r docs/requirements.txt
+    - pip install -r docsgenerator/requirements.txt
+    - python docsgenerator/generate.py ${VERSION} src --builddir "docs/docs/script-reference" --markdown
+  artifacts:
+    paths:
+      - docs/docs/script-reference/
+
+pages:
+  stage: build
+  image: "python:3.9-alpine"
+  needs: [build:docs]
+  script:
+    - cd docs
+    - pip install -r requirements.txt
+    - mkdocs build -d "../public"
+  after_script:
+    - 'echo "Online documentation available under: ${CI_PAGES_URL}"'
+  artifacts:
+    paths:
+      - public
+
+docs:
+  stage: build
+  image: "python:3.9-alpine"
+  needs: [build:docs]
+  script:
+    - cd docs
+    - pip install -r requirements.txt
+    - mkdocs build -d "../${PROJECT_NAME}_docs" --no-directory-urls
+  after_script:
+    - echo "Docs_job_id=${CI_JOB_ID}" >> job.env
+  artifacts:
+    name: "${PROJECT_NAME}_docs"
+    paths:
+      - ${PROJECT_NAME}_docs
     expire_in: never
     reports:
        dotenv: job.env
-    
+
 release:
   stage: release
   image: registry.gitlab.com/gitlab-org/release-cli:latest
   when: manual
-  needs: [build:windows]
-  variables:
-    TAG: '0.1'
+  needs: [build:windows, pages, docs]
   script:
-    - echo "Create Release $TAG"
+    - echo "Created ${VERSION} release"
   release:
-    tag_name: '$TAG'
+    tag_name: "${VERSION}"
     description: "./CHANGELOG.md"
     assets:
       links:
-        - name: "$CI_PROJECT_NAME.dll"
-          url: "$CI_PROJECT_URL/-/jobs/$windows_x86_JOB_ID/artifacts/download"
+        - name: "${PROJECT_NAME}.dll"
+          url: "${CI_PROJECT_URL}/-/jobs/${Windows_x86_job_id}/artifacts/download"
           link_type: "package"
+        - name: "${PROJECT_NAME}_docs"
+          url: "${CI_PROJECT_URL}/-/jobs/${Docs_job_id}/artifacts/download"

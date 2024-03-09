@@ -33,6 +33,7 @@ build:windows:
   variables:
     SYSTEM: "Windows"
     SHARED_LIB_SUFFIX: ".dll"
+    ARCHITECTURE: "x86"
   before_script: |
     function loadenv($bat_file)
     {
@@ -50,9 +51,9 @@ build:windows:
       Remove-Item "$env_file"
     }
 
-    loadenv "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x86
+    loadenv "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" ${ARCHITECTURE}
   after_script:
-    - Add-Content -Path job.env -Value "Windows_x86_job_id=${CI_JOB_ID}"
+    - Add-Content -Path job.env -Value "${SYSTEM}_${ARCHITECTURE}_job_id=${CI_JOB_ID}"
 
 build:docs:
   stage: build

@@ -2,8 +2,14 @@ cmake_minimum_required(VERSION 3.21)
 
 project(union-template)
 
-file(GLOB SRC
-	"src/sqmain.cpp"
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+file(GLOB_RECURSE SRC
+	"include/*.h"
+
+	"src/*.h"
+	"src/*.cpp"
 )
 
 add_library(${PROJECT_NAME} SHARED ${SRC})
@@ -11,11 +17,7 @@ add_library(${PROJECT_NAME} SHARED ${SRC})
 target_compile_definitions(${PROJECT_NAME}
 	PRIVATE
 		SCRAT_EXPORT
-)
-
-target_precompile_headers(${PROJECT_NAME}
-	PRIVATE
-		<GothicAPI/zGothicAPI.h>
+		__G2A
 )
 
 target_include_directories(${PROJECT_NAME}

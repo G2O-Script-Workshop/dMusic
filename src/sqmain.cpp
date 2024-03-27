@@ -19,11 +19,15 @@ void __fastcall oCGame__Render(oCGame* self, void* vtable);
 auto Hook_oCGame_Render = Union::CreateHook((void*)0x006C86A0, oCGame__Render, Union::HookType::Hook_Detours);
 void __fastcall oCGame__Render(oCGame* self, void* vtable)
 {
-	printf("render call\n");
-	Hook_oCGame_Render(self, vtable);
-
-	// Since g2o hook is overriding Union master hook, we need to reapply it
+	// g2o uses dynamic hooks (once that revert patch to original value & invoke the original function), tso we need to follow this pattern here
 	Hook_oCGame_Render.Disable();
+
+	printf("render call\n");
+
+	// always invoke original method! (calling overloaded union call operator on Hook_oCGame_Render will result in a crash)
+	self->Render();
+
+	// if we want to keep our hook active, we need to reapply it
 	Hook_oCGame_Render.Enable();
 }
 

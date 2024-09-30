@@ -1,6 +1,6 @@
 include:
   - project: GothicMultiplayerTeam/templates
-    file: [union-module.yml]
+    file: [client-module.yml]
 
 variables:
   PROJECT_NAME: ${CI_PROJECT_NAME}

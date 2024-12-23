@@ -6,6 +6,8 @@ Refer to [Union Module Template](https://gitlab.com/GothicMultiplayerTeam/module
 ## Usage
 Play Music:
 ```js
+//Example: /music OWD_Day_Std
+
 addEventHandler("onCommand", function(cmd, params){
 	cmd = cmd.tolower();
 	switch(cmd){

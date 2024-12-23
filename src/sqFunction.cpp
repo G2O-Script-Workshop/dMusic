@@ -1,9 +1,5 @@
 #include "sqFunction.h"
-#include "sqUtils.h"
-
-#include <vector>
-#include <cctype>
-
+//#include "sqUtils.h"
 
 void sq_playTheme(char* musicInst)
 {
@@ -16,7 +12,7 @@ void sq_stopTheme(char* musicInst)
 	if(zmusic) zmusic->Stop();
 }
 
-void sq_getTheme() {
+/* void sq_getTheme() {
 	zCMusicTheme* GetActiveTheme();
 	// figure out how to return this
-}
+} */

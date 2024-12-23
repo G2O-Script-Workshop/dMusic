@@ -7,7 +7,7 @@ void sq_playTheme(char* musicInst)
 	zmusic->PlayThemeByScript(musicInst, 0, 0);
 }
 
-void sq_stopTheme(char* musicInst)
+void sq_stopTheme()
 {
 	if(zmusic) zmusic->Stop();
 }

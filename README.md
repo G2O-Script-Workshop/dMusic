@@ -1,14 +1,29 @@
-# Union module template
+# dMusic - G2O Union Module
 
-## Introduction
+## Template Module
+Refer to [Union Module Template](https://gitlab.com/GothicMultiplayerTeam/modules/union-template).
 
-This is a template project for making squirrel modules for [Gothic 2 Online](https://gothic-online.com.pl/) modification.  
-The template uses:
-- **CMake** to support **Windows** and **Linux** systems + specific architectures.  
-- **gitlab-ci** for easier release of new module versions.
-- **MkDocs** for generating and hosting web documentation.
-- **Union Framework** for manipulating game memory.
+## Usage
+Play Music:
+```js
+addEventHandler("onCommand", function(cmd, params){
+	cmd = cmd.tolower();
+	switch(cmd){
+		case "music":
+			if(!params) return;
 
-## Documentation
+			playTheme(params.toupper());
+		break;
+	}
+});```
 
-https://gothicmultiplayerteam.gitlab.io/modules/union-template
+Stop Music:
+```js
+addEventHandler("onKeyDown", function(key){
+	switch(key){
+		case KEY_O:
+			stopTheme();
+		break;
+	}
+});
+```

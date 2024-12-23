@@ -7,7 +7,7 @@ void sq_playTheme(char* musicInst)
 	zmusic->PlayThemeByScript(musicInst, 0, 0);
 }
 
-void sq_stopTheme()
+void sq_stopMusic()
 {
 	if(zmusic) zmusic->Stop();
 }
@@ -16,3 +16,8 @@ void sq_stopTheme()
 	zCMusicTheme* GetActiveTheme();
 	// figure out how to return this
 } */
+
+void sq_muteMusic()
+{
+	if(zmusic) zmusic->Mute();
+}

@@ -8,5 +8,6 @@
 using namespace Gothic_II_Addon;
 
 void sq_playTheme(char* musicInst);
-void sq_stopTheme();
+void sq_stopMusic();
 // void sq_getTheme();
+void sq_muteMusic();

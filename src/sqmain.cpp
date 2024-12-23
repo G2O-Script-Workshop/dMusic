@@ -11,7 +11,9 @@ extern "C" SQRESULT SQRAT_API sqmodule_load(HSQUIRRELVM vm, HSQAPI api)
 
 	Sqrat::RootTable(vm)
 		.Func("playTheme", &sq_playTheme)
-		.Func("stopTheme", &sq_stopTheme);
+		.Func("stopMusic", &sq_stopMusic)
+		//.Func("getTheme", &sq_getTheme)
+		.Func("muteMusic", &sq_muteMusic);
 
 		return SQ_OK;
 }

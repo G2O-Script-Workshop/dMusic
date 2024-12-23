@@ -7,5 +7,6 @@
 
 using namespace Gothic_II_Addon;
 
-SQInteger sq_playTheme(HSQUIRRELVM vm);
-SQInteger sq_stopTheme(HSQUIRRELVM vm);
+void sq_playTheme(char* musicInst);
+void sq_stopTheme(char* musicInst);
+// void sq_getTheme();
